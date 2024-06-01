@@ -8,3 +8,5 @@
 </div>
 
 
+## Projetos Concluídos
+- <a href="https://gabrielalencs.github.io/Desafios-Codelandia/desafio_01/">CodeLab</a> | <a href="https://github.com/gabrielalencs/Desafios-Codelandia/tree/main/desafio_01">Repositório</a>
