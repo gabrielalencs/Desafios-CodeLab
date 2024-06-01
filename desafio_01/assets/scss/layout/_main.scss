@@ -1,0 +1,95 @@
+@use '../base/colors' as color;
+@use '../base/breakpoints' as media;
+
+main {
+    padding: 0 3rem 3rem 5rem;
+    max-width: 130rem;
+    margin: 4rem auto 0;
+
+    @include media.smallTablets {
+        margin-top: 6rem;
+        padding: 0 4rem;
+    }
+}
+
+.news-container {
+    background-color: color.$dark-20;
+    margin-bottom: 3rem;
+    border-radius: 1rem;
+    border: 2px solid color.$dark-40;
+    padding: 2rem;
+    transition: all .3s;
+
+    @include media.smallTablets {
+        padding: 3rem;
+        margin-bottom: 4.5rem;
+    }
+
+    &__date {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        span {
+            color: color.$brand-color;
+            font-size: 1.3rem;
+
+            @include media.smallTablets {
+                font-size: 1.4rem;
+            }
+
+            @include media.laptops {
+                font-size: 1.6rem;
+            }
+        }
+
+        .icon-heart {
+            font-size: 2.5rem;
+
+            @include media.smallTablets {
+                font-size: 3rem;
+                color: color.$brand-color;
+            }
+        }
+    }
+
+    &__content {
+        margin-top: 2rem;
+    }
+
+    &__title {
+        font-size: 2rem;
+        color: color.$white;
+        font-weight: 400;
+
+        @include media.laptops {
+            font-size: 2.4rem;
+        }
+    }
+
+    &__description {
+        margin-top: 1.5rem;
+        font-size: 1.4rem;
+        color: color.$gray;
+        line-height: 2.4rem;
+
+        @include media.smallTablets {
+            font-size: 1.6rem;
+        }
+
+        @include media.laptops {
+            font-size: 2rem;
+            line-height: 3.2rem;
+        }
+    }
+}
+
+// .icon-heart {
+//     color: color.$brand-color;
+//     background-color: color.$brand-color;
+// }
+
+.border {
+    transition: all .3s;
+    border: 2px solid color.$brand-color;
+}

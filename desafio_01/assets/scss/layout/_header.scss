@@ -1,0 +1,72 @@
+@use '../base/colors' as color;
+@use '../base/breakpoints' as media;
+
+.header {
+    background-color: color.$dark-20;
+    
+    &__content {
+        text-align: center;
+        padding: 4rem 3rem;
+        max-width: 130rem;
+        margin: 0 auto;
+
+        @include media.smallTablets {
+            padding: 6rem 4rem;
+        }
+    }
+
+    &__title {
+        font-size: 2.4rem;
+        color: color.$white;
+
+        @include media.smallTablets {
+            font-size: 4rem;
+        }
+
+        span {
+            color: color.$brand-color;
+        }
+    }
+
+    &__search-container {
+        margin-top: 4rem;
+        background-color: color.$dark-30;
+        padding: 2rem;
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        border-radius: 1rem;
+        border: 2px solid color.$dark-40;
+
+        @include media.smallTablets {
+            gap: 2rem;
+        }
+
+        img {
+            width: 2rem;
+
+            @include media.smallTablets {
+                width: 3rem;
+            }
+        }
+
+        input {
+            background-color: transparent;
+            border: none;
+            font-size: 1.5rem;
+            color: color.$white;
+
+            @include media.smallTablets {
+                font-size: 2rem;
+            }
+
+            &::placeholder {
+                color: color.$gray;
+            }
+
+            &:focus {
+                outline: none;
+            }
+        }
+    }
+}

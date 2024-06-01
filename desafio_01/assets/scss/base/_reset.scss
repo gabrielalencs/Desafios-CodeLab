@@ -1,0 +1,35 @@
+@use 'colors' as color;
+
+//  Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: color.$dark-10;
+}
+
+h1,
+h2 {
+    font-family: "Space Grotesk", sans-serif;
+}
+
+p,
+span,
+input {
+    font-family: "Inter", sans-serif;
+}
+
+input[type="search"]::-webkit-search-cancel-button {
+    display: none;
+}
