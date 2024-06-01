@@ -143,11 +143,11 @@ main {
 }
 .news-container__date .icon-heart {
   font-size: 2.5rem;
+  color: #e07b67;
 }
 @media (min-width: 768px) {
   .news-container__date .icon-heart {
     font-size: 3rem;
-    color: #e07b67;
   }
 }
 .news-container__content {
@@ -179,6 +179,10 @@ main {
     font-size: 2rem;
     line-height: 3.2rem;
   }
+}
+
+.icon-heart {
+  color: #e07b67;
 }
 
 .border {
