@@ -5,10 +5,20 @@
 </div>
 
 <h2>Sobre o desafio 👨🏻‍💻</h2>
-<p>O objetivo era contruir um layout idêntico ao figma fornecido.</p>
-<p>Os usuários conseguem:</p>
+<p>O objetivo era contruir um layout idêntico ao figma fornecido. </p>
+<p> <a href="https://www.figma.com/design/Yb9IBH56g7T1hdIyZ3BMNO/Desafios---CodeLab?node-id=0-1&t=GgkhWY12fQcZB8zk-0"><b>Figma do projeto</b></a></p>
+
+<h3> Os usuários conseguem: </h3>
 <ul>
   <li>Visualizar um <b>layout adequado</b> em seu dispositivo.</li>
   <li><b>Filtrar</b> por notícias.</li>
-  <li>Marcar notícia como favorito</li>
+  <li><b>Marcar notícia</b> como favorito.</li>
+</ul>
+
+
+<h2>Tecnologias Utilizadas ⚙️</h1> 
+<ul>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>SASS/SCSS</li>
 </ul>
