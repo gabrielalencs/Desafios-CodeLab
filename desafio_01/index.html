@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Styles CSS -->
     <link rel="stylesheet" href="assets/css/app.css" />
     <!-- Scripts JS -->
     <script src="assets/js/script.js" defer></script>
     <title>CodeLab - Blog</title>
 </head>
+
 <body>
     <header class="header">
         <div class="header__content">
@@ -19,13 +23,13 @@
             </h1>
             <div class="header__search-container">
                 <img src="assets/images/icon-search.svg" alt="icon search">
-                <input type="search" name="search" placeholder="Pesquisar no blog">
+                <input type="search" name="search" placeholder="Pesquisar no blog" id="input-search">
             </div>
         </div>
     </header>
 
     <main>
-        <div class="news-container">
+        <div class="news-container" data-id="1">
             <div class="news-container__date">
                 <span>17 de ago, 2024</span>
                 <i class="fa-regular fa-heart icon-heart"></i>
@@ -34,12 +38,14 @@
             <div class="news-container__content">
                 <h2 class="news-container__title">O que é linguagem de programação? Conheça as principais</h2>
                 <p class="news-container__description">
-                    Uma das mais populares vertentes da tecnologia da informação, a área de programação segue tendo muita demanda de trabalho justamente pela velocidade com que dispositivos tecnológicos vêm avançando.
+                    Uma das mais populares vertentes da tecnologia da informação, a área de programação segue tendo
+                    muita demanda de trabalho justamente pela velocidade com que dispositivos tecnológicos vêm
+                    avançando.
                 </p>
             </div>
         </div>
 
-        <div class="news-container">
+        <div class="news-container" data-id="2">
             <div class="news-container__date">
                 <span>12 de jul, 2024</span>
                 <i class="fa-regular fa-heart icon-heart"></i>
@@ -48,12 +54,14 @@
             <div class="news-container__content">
                 <h2 class="news-container__title">GitHub agora permite fazer login sem precisar de senha</h2>
                 <p class="news-container__description">
-                    O GitHub anunciou nesta quarta-feira (12) o acesso a partir das passkeys, método de autenticação sem senhas. A novidade está disponível em uma versão beta pública e pode substituir a autenticação em dois fatores.
+                    O GitHub anunciou nesta quarta-feira (12) o acesso a partir das passkeys, método de autenticação sem
+                    senhas. A novidade está disponível em uma versão beta pública e pode substituir a autenticação em
+                    dois fatores.
                 </p>
             </div>
         </div>
-
-        <div class="news-container">
+5
+        <div class="news-container" data-id="3">
             <div class="news-container__date">
                 <span>21 de jun, 2024</span>
                 <i class="fa-regular fa-heart icon-heart"></i>
@@ -62,10 +70,119 @@
             <div class="news-container__content">
                 <h2 class="news-container__title">Por que os hiperlinks são azuis em sua maioria?</h2>
                 <p class="news-container__description">
-                    Quem navega na internet, certamente já percebeu que ela conta com diversos recursos para tornar a nossa vida mais fácil. Entre essas opções podemos mencionar os hiperlinks – uma palavra ou termo clicável que direciona o leitor.
+                    Quem navega na internet, certamente já percebeu que ela conta com diversos recursos para tornar a
+                    nossa vida mais fácil. Entre essas opções podemos mencionar os hiperlinks – uma palavra ou termo
+                    clicável que direciona o leitor.
+                </p>
+            </div>
+        </div>
+
+        <div class="news-container" data-id="4">
+            <div class="news-container__date">
+                <span>5 de jun, 2023</span>
+                <i class="fa-regular fa-heart icon-heart"></i>
+            </div>
+
+            <div class="news-container__content">
+                <h2 class="news-container__title">Inteligência Artificial revoluciona atendimento ao cliente</h2>
+                <p class="news-container__description">
+                    A adoção de IA no atendimento ao cliente está proporcionando respostas mais rápidas e precisas,
+                    melhorando a experiência do usuário e reduzindo custos para empresas.
+                </p>
+            </div>
+        </div>
+
+        <div class="news-container" data-id="5">
+            <div class="news-container__date">
+                <span>15 de mar, 2024</span>
+                <i class="fa-regular fa-heart icon-heart"></i>
+            </div>
+
+            <div class="news-container__content">
+                <h2 class="news-container__title">5G expande sua cobertura nas principais cidades brasileiras</h2>
+                <p class="news-container__description">
+                    A tecnologia 5G está se tornando mais acessível no Brasil, com várias operadoras aumentando a
+                    cobertura nas grandes cidades, prometendo velocidades de internet móvel muito mais rápidas.
+                </p>
+            </div>
+        </div>
+
+        <div class="news-container" data-id="6">
+            <div class="news-container__date">
+                <span>20 de abr, 2024</span>
+                <i class="fa-regular fa-heart icon-heart"></i>
+            </div>
+
+            <div class="news-container__content">
+                <h2 class="news-container__title">Computação quântica: a próxima revolução tecnológica</h2>
+                <p class="news-container__description">
+                    Pesquisadores estão avançando rapidamente na computação quântica, que promete resolver problemas
+                    complexos muito mais rápido que os computadores tradicionais.
+                </p>
+            </div>
+        </div>
+
+        <div class="news-container" data-id="7">
+            <div class="news-container__date">
+                <span>30 de mai, 2024</span>
+                <i class="fa-regular fa-heart icon-heart"></i>
+            </div>
+
+            <div class="news-container__content">
+                <h2 class="news-container__title">Realidade aumentada transforma o setor de varejo</h2>
+                <p class="news-container__description">
+                    Lojas estão adotando realidade aumentada para oferecer experiências de compra interativas e
+                    personalizadas, atraindo mais clientes e aumentando as vendas.
+                </p>
+            </div>
+        </div>
+
+        <div class="news-container" data-id="8">
+            <div class="news-container__date">
+                <span>10 de jun, 2024</span>
+                <i class="fa-regular fa-heart icon-heart"></i>
+            </div>
+
+            <div class="news-container__content">
+                <h2 class="news-container__title">Blockchain vai além das criptomoedas e ganha novas aplicações</h2>
+                <p class="news-container__description">
+                    A tecnologia blockchain está sendo explorada em diversas áreas, como logística, saúde e finanças,
+                    devido à sua capacidade de oferecer segurança e transparência.
+                </p>
+            </div>
+        </div>
+
+        <div class="news-container" data-id="9">
+            <div class="news-container__date">
+                <span>12 de mai, 2023</span>
+                <i class="fa-regular fa-heart icon-heart"></i>
+            </div>
+
+            <div class="news-container__content">
+                <h2 class="news-container__title">Novas baterias de estado sólido prometem maior autonomia para
+                    dispositivos</h2>
+                <p class="news-container__description">
+                    Pesquisadores desenvolvem baterias de estado sólido que oferecem maior capacidade de armazenamento e
+                    segurança, prolongando a autonomia de smartphones e carros elétricos.
+                </p>
+            </div>
+        </div>
+
+        <div class="news-container" data-id="10">
+            <div class="news-container__date">
+                <span>18 de jun, 2024</span>
+                <i class="fa-regular fa-heart icon-heart"></i>
+            </div>
+
+            <div class="news-container__content">
+                <h2 class="news-container__title">Robótica avançada melhora processos industriais e produtividade</h2>
+                <p class="news-container__description">
+                    A integração de robôs avançados nas linhas de produção está aumentando a eficiência e a precisão nas
+                    fábricas, resultando em uma maior produtividade e qualidade dos produtos.
                 </p>
             </div>
         </div>
     </main>
 </body>
+
 </html>
