@@ -183,6 +183,7 @@ main {
 
 .icon-heart {
   color: #e07b67;
+  cursor: pointer;
 }
 
 .border {
