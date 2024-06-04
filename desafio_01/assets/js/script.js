@@ -4,8 +4,7 @@ const inputSearch = document.getElementById('input-search');
 const allTitlesNews = document.querySelectorAll('.news-container__title');
 
 
-
-// Carregar notícias favoritas do localStorage ao iniciar a página
+// load favorite news from localStorage when launching page
 
 document.addEventListener('DOMContentLoaded', () => {
     const savedFavorites = JSON.parse(localStorage.getItem('favorites')) || [];
@@ -27,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 
-// Função para salvar ou remover notícias do localStorage
+// function to save or remove news from localStorage
 
 const updateLocalStorage = (id, isFavorite) => {
 
@@ -38,7 +37,7 @@ const updateLocalStorage = (id, isFavorite) => {
             favorites.push(id);
         }
     } else {
-        favorites = favorites.filter(favId => favId !== id);
+        favorites = favorites.filter(favId => !(favId == id));
     }
 
     localStorage.setItem('favorites', JSON.stringify(favorites));
@@ -46,7 +45,7 @@ const updateLocalStorage = (id, isFavorite) => {
 };
 
 
-// Estilo do container e do ícone quando clicar nele
+// container and icon style when clicked
 
 iconHeart.forEach(icon => {
 
@@ -54,6 +53,7 @@ iconHeart.forEach(icon => {
 
         const clickedIconContainer = icon.parentElement.parentElement;
         const newsId = clickedIconContainer.getAttribute('data-id');
+
 
         icon.classList.toggle('fa-regular');
         icon.classList.toggle('fa-solid');
@@ -69,7 +69,7 @@ iconHeart.forEach(icon => {
 });
 
 
-// Filtrar notícias com base no que o usuário digita no campo de input
+// filter news based on what the user types in the input field
 
 inputSearch.addEventListener('input', () => {
 
