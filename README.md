@@ -9,4 +9,5 @@
 
 
 ## Projetos Concluídos
-- <a href="https://gabrielalencs.github.io/Desafios-Codelandia/desafio_01/">CodeLab</a> | <a href="https://github.com/gabrielalencs/Desafios-Codelandia/tree/main/desafio_01">Repositório</a>
+- <a href="https://gabrielalencs.github.io/Desafios-Codelandia/desafio_01/">Blog</a> | <a href="https://github.com/gabrielalencs/Desafios-Codelandia/tree/main/desafio_01">Repositório</a>
+- <a href="">JordanShoes</a> | <a href="https://github.com/gabrielalencs/Desafios-Codelandia/tree/main/desafio_02">Repositório</a> ⚠️
