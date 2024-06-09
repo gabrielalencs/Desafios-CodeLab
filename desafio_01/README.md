@@ -1,6 +1,6 @@
 
 <div align="center">
-    <h1>CodeLab 📰🖥️</h1> 
+    <h1>Blog 📰🖥️</h1> 
     <img src="https://github.com/gabrielalencs/Desafios-Codelandia/assets/127636935/abfe350f-85eb-4d9f-8bd5-1fa659a939e8">
 </div>
 
