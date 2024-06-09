@@ -14,6 +14,7 @@
   <li>Visualizar um <b>layout adequado</b> em seu dispositivo.</li>
   <li><b>Filtrar</b> por notícias.</li>
   <li><b>Marcar notícia</b> como favorito.</li>
+  <li>Visualizar <b>notícias favoritadas</b> mesmo após <b>fechar a página</b>.</li>
 </ul>
 
 
