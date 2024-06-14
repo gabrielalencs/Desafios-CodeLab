@@ -717,20 +717,17 @@ video {
   clear: none;
 }
 
-.mt-2{
-  margin-top: 0.5rem;
-}
-
-.mt-14{
-  margin-top: 3.5rem;
+.mx-auto{
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .mt-10{
   margin-top: 2.5rem;
 }
 
-.mt-5{
-  margin-top: 1.25rem;
+.mt-2{
+  margin-top: 0.5rem;
 }
 
 .mt-3{
@@ -836,6 +833,14 @@ video {
   display: none;
 }
 
+.w-40{
+  width: 10rem;
+}
+
+.w-96{
+  width: 24rem;
+}
+
 .w-\[this-is\\\\\]{
   width: this-is\\;
 }
@@ -848,28 +853,20 @@ video {
   width: weird-and-invalid;
 }
 
-.w-3{
-  width: 0.75rem;
+.w-1216{
+  width: 1216px;
 }
 
-.w-32{
-  width: 8rem;
+.max-w-52{
+  max-width: 13rem;
 }
 
-.w-4{
-  width: 1rem;
+.max-w-1{
+  max-width: 0.25rem;
 }
 
-.w-40{
-  width: 10rem;
-}
-
-.w-36{
-  width: 9rem;
-}
-
-.w-96{
-  width: 24rem;
+.max-w-10{
+  max-width: 2.5rem;
 }
 
 .flex-shrink{
@@ -1835,38 +1832,9 @@ video {
   background-color: rgb(255 0 0 / var(--tw-bg-opacity));
 }
 
-.bg-slate-950{
-  --tw-bg-opacity: 1;
-  background-color: rgb(2 6 23 / var(--tw-bg-opacity));
-}
-
 .bg-gray-primary{
   --tw-bg-opacity: 1;
   background-color: rgb(243 247 255 / var(--tw-bg-opacity));
-}
-
-.bg-\[url\]{
-  background-color: url;
-}
-
-.bg-\[url\(\'\'\)\]{
-  background-image: url('');
-}
-
-.bg-\[url\(\'\.\/src\/images\/\'\)\]{
-  background-image: url('./src/images/');
-}
-
-.bg-\[url\(\'\.\/src\/images\/image-michael-jorda\'\)\]{
-  background-image: url('./src/images/image-michael-jorda');
-}
-
-.bg-\[url\(\'\.\/src\/images\/image-michael-jordan\.png\'\)\]{
-  background-image: url('./src/images/image-michael-jordan.png');
-}
-
-.bg-\[url\(\'src\/images\/image-michael-jordan\.png\'\)\]{
-  background-image: url('src/images/image-michael-jordan.png');
 }
 
 .bg-\[url\(\'\/src\/images\/image-michael-jordan\.png\'\)\]{
@@ -1891,6 +1859,10 @@ video {
 .box-decoration-clone{
   -webkit-box-decoration-break: clone;
           box-decoration-break: clone;
+}
+
+.bg-cover{
+  background-size: cover;
 }
 
 .bg-fixed{
@@ -1987,34 +1959,9 @@ video {
   padding: 1.25rem;
 }
 
-.py-10{
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
-}
-
-.px-3{
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
-}
-
-.px-5{
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
-}
-
 .px-6{
   padding-left: 1.5rem;
   padding-right: 1.5rem;
-}
-
-.py-2{
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-}
-
-.py-24{
-  padding-top: 6rem;
-  padding-bottom: 6rem;
 }
 
 .py-20{
@@ -2481,6 +2428,12 @@ video {
   transition-duration: 150ms;
 }
 
+.transition-all{
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
 .ease-in{
   transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
 }
@@ -2607,10 +2560,38 @@ video {
   }
 }
 
+@media (min-width: 768px){
+  .md\:w-56{
+    width: 14rem;
+  }
+
+  .md\:text-lg{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+}
+
 @media (min-width: 1024px){
+  .lg\:w-64{
+    width: 16rem;
+  }
+
+  .lg\:w-10{
+    width: 2.5rem;
+  }
+
+  .lg\:w-100{
+    width: 30rem;
+  }
+
   .lg\:text-2xl{
     font-size: 1.5rem;
     line-height: 2rem;
+  }
+
+  .lg\:text-3xl{
+    font-size: 1.875rem;
+    line-height: 2.25rem;
   }
 }
 
