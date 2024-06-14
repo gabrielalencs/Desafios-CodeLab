@@ -869,6 +869,14 @@ video {
   max-width: 1216px;
 }
 
+.max-w-40{
+  max-width: 10rem;
+}
+
+.max-w-96{
+  max-width: 24rem;
+}
+
 .flex-shrink{
   flex-shrink: 1;
 }
@@ -1977,6 +1985,14 @@ video {
   padding-bottom: 5rem;
 }
 
+.pr-4{
+  padding-right: 1rem;
+}
+
+.pr-5{
+  padding-right: 1.25rem;
+}
+
 .text-left{
   text-align: left;
 }
@@ -2630,6 +2646,10 @@ span {
 
   .md\:grid-cols-2{
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .md\:pr-0{
+    padding-right: 0px;
   }
 
   .md\:text-2xl{
