@@ -7,4 +7,10 @@
 @tailwind utilities;
 
 
-
+h1,
+h2,
+h3,
+p,
+span {
+    transition: all .3s;
+}
