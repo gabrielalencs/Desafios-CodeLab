@@ -853,20 +853,12 @@ video {
   width: weird-and-invalid;
 }
 
-.w-1216{
-  width: 1216px;
-}
-
-.max-w-52{
-  max-width: 13rem;
-}
-
 .max-w-1{
   max-width: 0.25rem;
 }
 
-.max-w-10{
-  max-width: 2.5rem;
+.max-w-1216{
+  max-width: 1216px;
 }
 
 .flex-shrink{
@@ -2042,6 +2034,14 @@ video {
   font-weight: 500;
 }
 
+.font-normal{
+  font-weight: 400;
+}
+
+.font-light{
+  font-weight: 300;
+}
+
 .uppercase{
   text-transform: uppercase;
 }
@@ -2572,16 +2572,24 @@ video {
 }
 
 @media (min-width: 1024px){
-  .lg\:w-64{
-    width: 16rem;
-  }
-
-  .lg\:w-10{
-    width: 2.5rem;
+  .lg\:mb-24{
+    margin-bottom: 6rem;
   }
 
   .lg\:w-100{
     width: 30rem;
+  }
+
+  .lg\:w-64{
+    width: 16rem;
+  }
+
+  .lg\:bg-top{
+    background-position: top;
+  }
+
+  .lg\:bg-center{
+    background-position: center;
   }
 
   .lg\:text-2xl{
