@@ -734,6 +734,10 @@ video {
   margin-top: 0.75rem;
 }
 
+.mt-5{
+  margin-top: 1.25rem;
+}
+
 .box-border{
   box-sizing: border-box;
 }
@@ -833,10 +837,6 @@ video {
   display: none;
 }
 
-.w-100{
-  width: 30rem;
-}
-
 .w-40{
   width: 10rem;
 }
@@ -857,12 +857,12 @@ video {
   width: weird-and-invalid;
 }
 
-.max-w-1216{
-  max-width: 1216px;
-}
-
 .max-w-100{
   max-width: 30rem;
+}
+
+.max-w-1216{
+  max-width: 1216px;
 }
 
 .flex-shrink{
@@ -1381,6 +1381,14 @@ video {
 
 .justify-items-stretch{
   justify-items: stretch;
+}
+
+.gap-5{
+  gap: 1.25rem;
+}
+
+.gap-10{
+  gap: 2.5rem;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]){
@@ -2507,6 +2515,32 @@ span {
   transition: all .3s;
 }
 
+.cardContainerImage{
+  --tw-bg-opacity: 1;
+  background-color: rgb(243 247 255 / var(--tw-bg-opacity));
+  padding: 2.5rem;
+}
+
+.cardShoesName{
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: 500;
+}
+
+.cardShoesCategory{
+  margin-top: 0.5rem;
+  font-weight: 500;
+  --tw-text-opacity: 1;
+  color: rgb(124 162 244 / var(--tw-text-opacity));
+}
+
+.cardShoesPrice{
+  margin-top: 0.75rem;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 500;
+}
+
 @media (min-width: 640px){
   .sm\:container{
     width: 100%;
@@ -2576,8 +2610,8 @@ span {
     width: 14rem;
   }
 
-  .md\:w-100{
-    width: 30rem;
+  .md\:grid-cols-2{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .md\:text-2xl{
@@ -2592,16 +2626,16 @@ span {
 }
 
 @media (min-width: 1024px){
-  .lg\:mb-24{
-    margin-bottom: 6rem;
-  }
-
   .lg\:w-100{
     width: 30rem;
   }
 
   .lg\:w-64{
     width: 16rem;
+  }
+
+  .lg\:grid-cols-3{
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .lg\:text-2xl{
@@ -2614,14 +2648,15 @@ span {
     line-height: 2.25rem;
   }
 
-  .lg\:text-xl{
-    font-size: 1.25rem;
-    line-height: 1.75rem;
-  }
-
   .lg\:text-lg{
     font-size: 1.125rem;
     line-height: 1.75rem;
+  }
+}
+
+@media (min-width: 1280px){
+  .xl\:grid-cols-3{
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
 

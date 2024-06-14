@@ -6,11 +6,26 @@
 
 @tailwind utilities;
 
-
 h1,
 h2,
 h3,
 p,
 span {
     transition: all .3s;
+}
+
+.cardContainerImage {
+    @apply bg-gray-primary p-10;
+}
+
+.cardShoesName {
+    @apply text-lg font-medium;
+}
+
+.cardShoesCategory {
+    @apply mt-2 text-primary-color font-medium;
+}
+
+.cardShoesPrice {
+    @apply mt-3 text-xl font-medium;
 }
