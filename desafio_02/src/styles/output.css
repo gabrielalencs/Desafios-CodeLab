@@ -1845,6 +1845,10 @@ video {
   background-image: url("/src/images/image-michael-jordan.png");
 }
 
+.bg-\[url\(\'\/src\/images\/image-michael-jordan\.png\'\)\]{
+  background-image: url('/src/images/image-michael-jordan.png');
+}
+
 .decoration-slice{
   -webkit-box-decoration-break: slice;
           box-decoration-break: slice;

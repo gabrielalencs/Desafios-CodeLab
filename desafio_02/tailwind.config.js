@@ -6,9 +6,6 @@ module.exports = {
         fontFamily: {
             'archivo': ['Archivo', 'sans-serif']
         },
-        backgroundImage: {
-            'header-banner': 'url("/src/images/image-michael-jordan.png")'
-        },
         colors: {
             'primary-color': '#7CA2F4',
             'black-primary': '#121214',
