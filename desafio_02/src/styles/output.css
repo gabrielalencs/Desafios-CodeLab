@@ -1841,10 +1841,6 @@ video {
   background-color: rgb(243 247 255 / var(--tw-bg-opacity));
 }
 
-.bg-header-banner{
-  background-image: url("/src/images/image-michael-jordan.png");
-}
-
 .bg-\[url\(\'\/src\/images\/image-michael-jordan\.png\'\)\]{
   background-image: url('/src/images/image-michael-jordan.png');
 }
