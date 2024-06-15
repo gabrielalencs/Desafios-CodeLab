@@ -726,6 +726,10 @@ video {
   margin-top: 2.5rem;
 }
 
+.mt-12{
+  margin-top: 3rem;
+}
+
 .mt-14{
   margin-top: 3.5rem;
 }
@@ -740,6 +744,10 @@ video {
 
 .mt-5{
   margin-top: 1.25rem;
+}
+
+.mt-16{
+  margin-top: 4rem;
 }
 
 .box-border{
@@ -845,10 +853,6 @@ video {
   width: 10rem;
 }
 
-.w-96{
-  width: 24rem;
-}
-
 .w-\[this-is\\\\\]{
   width: this-is\\;
 }
@@ -867,10 +871,6 @@ video {
 
 .max-w-1216{
   max-width: 1216px;
-}
-
-.max-w-40{
-  max-width: 10rem;
 }
 
 .max-w-96{
@@ -1971,8 +1971,8 @@ video {
   padding: 1.25rem;
 }
 
-.p-7{
-  padding: 1.75rem;
+.p-8{
+  padding: 2rem;
 }
 
 .px-6{
@@ -1983,10 +1983,6 @@ video {
 .py-20{
   padding-top: 5rem;
   padding-bottom: 5rem;
-}
-
-.pr-4{
-  padding-right: 1rem;
 }
 
 .pr-5{
@@ -2061,6 +2057,11 @@ video {
 .text-xl{
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-xs{
+  font-size: 0.75rem;
+  line-height: 1rem;
 }
 
 .font-bold{
@@ -2546,6 +2547,18 @@ span {
   padding: 2.5rem;
 }
 
+.cardImage {
+  transition: all .4s;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cardImage:hover{
+  --tw-scale-x: 1.1;
+  --tw-scale-y: 1.1;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
 .cardShoesName{
   font-size: 1.125rem;
   line-height: 1.75rem;
@@ -2648,6 +2661,10 @@ span {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .md\:gap-y-12{
+    row-gap: 3rem;
+  }
+
   .md\:pr-0{
     padding-right: 0px;
   }
@@ -2655,6 +2672,11 @@ span {
   .md\:text-2xl{
     font-size: 1.5rem;
     line-height: 2rem;
+  }
+
+  .md\:text-base{
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
 
   .md\:text-lg{

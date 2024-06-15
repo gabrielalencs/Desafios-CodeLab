@@ -19,6 +19,12 @@ span {
     @apply bg-gray-primary p-10;
 }
 
+.cardImage {
+    transition: all .4s;
+
+    @apply mx-auto hover:scale-110;
+}
+
 .cardShoesName {
     @apply text-lg font-medium;
 }
