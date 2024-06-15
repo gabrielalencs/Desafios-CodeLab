@@ -730,8 +730,8 @@ video {
   margin-top: 3rem;
 }
 
-.mt-14{
-  margin-top: 3.5rem;
+.mt-16{
+  margin-top: 4rem;
 }
 
 .mt-2{
@@ -744,10 +744,6 @@ video {
 
 .mt-5{
   margin-top: 1.25rem;
-}
-
-.mt-16{
-  margin-top: 4rem;
 }
 
 .box-border{
@@ -871,10 +867,6 @@ video {
 
 .max-w-1216{
   max-width: 1216px;
-}
-
-.max-w-96{
-  max-width: 24rem;
 }
 
 .flex-shrink{
@@ -2679,17 +2671,13 @@ span {
     line-height: 1.5rem;
   }
 
-  .md\:text-lg{
-    font-size: 1.125rem;
+  .md\:text-xl{
+    font-size: 1.25rem;
     line-height: 1.75rem;
   }
 }
 
 @media (min-width: 1024px){
-  .lg\:w-100{
-    width: 30rem;
-  }
-
   .lg\:w-64{
     width: 16rem;
   }
@@ -2702,6 +2690,11 @@ span {
   .lg\:text-3xl{
     font-size: 1.875rem;
     line-height: 2.25rem;
+  }
+
+  .lg\:text-4xl{
+    font-size: 2.25rem;
+    line-height: 2.5rem;
   }
 
   .lg\:text-lg{
