@@ -2,15 +2,12 @@
  <h1>Desafios da Comunidade $\color{orange}{\textsf{CodeLab}}$</h1> 
 </div>
 
+<p>Seja bem-vindo(a). Este é um repositório para as minhas soluções dos desafios $\color{blue}{\textsf{Front-End}}$ da comunidade CodeLab, criada pelo desenvolvedor $\color{Indigo}{\textsf{IuriCode}}$. Na tabela abaixo você encontra todos os desafios concluídos até agora.</p> 
 
 
-<div align="center">
- <img src="https://github.com/gabrielalencs/Desafios-Codelandia/assets/127636935/3a3cefab-0f08-4a31-93db-6b05c7fc011a" width="700px">
-</div>
-<p>Seja bem-vindo(a). Este é um repositório para as minhas soluções dos desafios Front-End da comunidade CodeLab, criada pelo desenvolvedor IuriCode. Na tabela abaixo você encontra todos os desafios concluídos até agora</p>
+## Projetos Concluídos 🎯
 
-
-## Projetos Concluídos
-- <a href="https://gabrielalencs.github.io/Desafios-Codelandia/desafio_01/">Blog</a> | <a href="https://github.com/gabrielalencs/Desafios-Codelandia/tree/main/desafio_01">Repositório</a>
-- <a href="https://desafios-codelandia-desafio-02.vercel.app/">JordanShoes</a> | <a href="https://github.com/gabrielalencs/Desafios-Codelandia/tree/main/desafio_02">Repositório</a> 🏆
-- <a href="">TechBlog</a> | <a href="https://github.com/gabrielalencs/Desafios-Codelandia/tree/main/desafio_03">Repositório</a> ⚠
+| Status | Desafio | Nome | Demo | Repositório | Tecnologias Utilizadas
+:------: | :-----: | :--: | :--: | :--: | :-----:
+✅ | 01 | Blog | <a href="https://gabrielalencs.github.io/Desafios-Codelandia/desafio_01/" target="_blank">Acessar</a> | <a href="https://github.com/gabrielalencs/Desafios-Codelandia/tree/main/desafio_01">Acessar </a> | HTML, CSS, JAVASCRIPT, SASS/SCSS
+✅ | 02 | JordanShoes | <a href="https://desafios-codelandia-desafio-02.vercel.app/" target="_blank">Acessar</a> | <a href="https://github.com/gabrielalencs/Desafios-Codelandia/tree/main/desafio_02">Acessar </a>  | HTML, CSS, TAILWIND CSS
