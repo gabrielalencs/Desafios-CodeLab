@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+:root {
+  --brand-color: #846aff;
+
+  --dark: #121214;
+
+  --gray-10: #7c7c8a;
+  --gray-20: #eaeaea;
+  --gray-30: #eeeeff;
+  --gray-40: #f8f8ff;
+
+  --white: #ffffff;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* link do figma: https://www.figma.com/design/Yb9IBH56g7T1hdIyZ3BMNO/Desafios---CodeLab?node-id=257106-1817&t=roZ31alpXfoDlrCc-0 */
