@@ -1,19 +1,38 @@
+@use '../abstract/colors' as color;
+
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+
 }
 
 html {
     font-size: 62.5%;
 }
 
-body {
-    font-family: "Roboto", sans-serif;
+button {
+    border: none;
+    background-color: color.$brand-color;
+    color: color.$white-primary;
+    text-transform: uppercase;
+    font-weight: 500;
 }
 
-// button {
-//     background-color: ;
-// }
+input {
+    border: none;
+    border: .1rem solid color.$gray-20;
+    border-radius: .4rem;
+    padding: 1rem 2rem;
+
+    &:focus {
+        outline: none;
+    }
+
+    &::placeholder {
+        color: color.$gray-10;
+    }
+}
