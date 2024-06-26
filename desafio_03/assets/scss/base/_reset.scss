@@ -7,11 +7,18 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
-
 }
 
 html {
     font-size: 62.5%;
+}
+
+h1,
+h2,
+h3,
+p,
+span {
+    transition: all .2s;
 }
 
 button {
@@ -20,6 +27,14 @@ button {
     color: color.$white-primary;
     text-transform: uppercase;
     font-weight: 500;
+    border-radius: .4rem;
+    transition: all .3s;
+    border: 2px solid color.$brand-color;
+
+    &:hover {
+        background-color: transparent;
+        color: color.$brand-color;
+    }
 }
 
 input {

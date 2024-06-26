@@ -10,12 +10,27 @@ html {
   font-size: 62.5%;
 }
 
+h1,
+h2,
+h3,
+p,
+span {
+  transition: all 0.2s;
+}
+
 button {
   border: none;
   background-color: #846AFF;
   color: #ffffff;
   text-transform: uppercase;
   font-weight: 500;
+  border-radius: 0.4rem;
+  transition: all 0.3s;
+  border: 2px solid #846AFF;
+}
+button:hover {
+  background-color: transparent;
+  color: #846AFF;
 }
 
 input {
@@ -29,6 +44,115 @@ input:focus {
 }
 input::placeholder {
   color: #7C7C8A;
+}
+
+.header {
+  background-color: #F8F8FF;
+}
+.header__limit {
+  padding: 6.4rem 0;
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 3rem;
+  max-width: 121.6rem;
+  margin: 0 auto;
+  text-align: center;
+}
+@media (min-width: 1200px) {
+  .header__limit {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+    padding: 6.4rem 4rem;
+  }
+}
+.header__content {
+  padding: 0 2.5rem;
+  max-width: 46.6rem;
+  margin: 0 auto;
+}
+@media (min-width: 768px) {
+  .header__content {
+    padding: 0;
+  }
+}
+@media (min-width: 1200px) {
+  .header__content {
+    margin: 0;
+    max-width: 58.1rem;
+  }
+}
+.header__title {
+  font-size: 2.4rem;
+  line-height: 2.8rem;
+}
+@media (min-width: 768px) {
+  .header__title {
+    font-size: 3.2rem;
+    line-height: 3.84rem;
+  }
+}
+@media (min-width: 1200px) {
+  .header__title {
+    font-size: 4rem;
+    line-height: 4.8rem;
+  }
+}
+.header__title span {
+  color: #846AFF;
+}
+.header__description {
+  max-width: 55rem;
+  margin-top: 1.9rem;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+@media (min-width: 768px) {
+  .header__description {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+}
+@media (min-width: 1200px) {
+  .header__description {
+    font-size: 2.4rem;
+  }
+}
+.header__description br {
+  display: none;
+}
+@media (min-width: 768px) {
+  .header__description br {
+    display: block;
+  }
+}
+.header__btn {
+  margin-top: 2.8rem;
+  width: 100%;
+  padding: 1.4rem;
+  font-size: 1.5rem;
+}
+@media (min-width: 768px) {
+  .header__btn {
+    width: 21.4rem;
+    font-size: 1.8rem;
+  }
+}
+.header__image-container img {
+  width: 50%;
+  max-width: 40rem;
+  margin: 0 auto;
+}
+@media (min-width: 768px) {
+  .header__image-container img {
+    width: 33rem;
+  }
+}
+@media (min-width: 1200px) {
+  .header__image-container img {
+    width: 100%;
+  }
 }
 
 /*# sourceMappingURL=app.css.map */
