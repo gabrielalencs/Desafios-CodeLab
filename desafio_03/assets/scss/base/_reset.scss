@@ -30,6 +30,7 @@ button {
     border-radius: .4rem;
     transition: all .3s;
     border: 2px solid color.$brand-color;
+    cursor: pointer;
 
     &:hover {
         background-color: transparent;
