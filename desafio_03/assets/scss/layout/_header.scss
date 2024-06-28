@@ -69,6 +69,7 @@
 
         @include media.desktop {
             font-size: 2.4rem;
+            margin: 3.6rem 0 0;
         }
 
         br {
@@ -90,6 +91,10 @@
         @include media.tablet {
             width: 21.4rem;
             font-size: 1.8rem;
+        }
+
+        @include media.desktop {
+            margin-top: 3.6rem;
         }
     }
 
