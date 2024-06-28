@@ -157,7 +157,8 @@ input::placeholder {
 }
 
 .recommended-articles {
-  margin-top: 7rem;
+  max-width: 121.6rem;
+  margin: 7rem auto 10rem;
   padding: 0 2rem;
 }
 .recommended-articles__title {
@@ -182,11 +183,16 @@ input::placeholder {
 @media (min-width: 768px) {
   .recommended-articles__container {
     margin-top: 6rem;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 3.5rem;
+    row-gap: 5rem;
   }
 }
 @media (min-width: 1200px) {
   .recommended-articles__container {
-    margin-top: 12rem;
+    margin-top: 10rem;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
 .recommended-articles__article {
@@ -196,6 +202,11 @@ input::placeholder {
 }
 .recommended-articles__article:hover {
   outline: 2px solid #846AFF;
+}
+@media (min-width: 1200px) {
+  .recommended-articles__article {
+    height: 35rem;
+  }
 }
 .recommended-articles__image {
   overflow: hidden;
@@ -214,7 +225,17 @@ input::placeholder {
 }
 @media (min-width: 481px) {
   .recommended-articles__content {
-    padding: 2.4rem 4.8rem 2.4rem 1.8rem;
+    padding: 2.4rem 5rem 2.4rem 1.8rem;
+  }
+}
+@media (min-width: 768px) {
+  .recommended-articles__content {
+    padding: 2.4rem 1.8rem;
+  }
+}
+@media (min-width: 1200px) {
+  .recommended-articles__content {
+    padding: 3rem 1.8rem;
   }
 }
 .recommended-articles__title-article {
@@ -231,12 +252,18 @@ input::placeholder {
 }
 @media (min-width: 481px) {
   .recommended-articles__title-article {
-    width: 100%;
-    font-size: 2rem;
+    max-width: 100%;
+    font-size: 1.8rem;
     line-height: 2.7rem;
   }
   .recommended-articles__title-article br {
     display: none;
+  }
+}
+@media (min-width: 1200px) {
+  .recommended-articles__title-article {
+    font-size: 1.9rem;
+    line-height: 2.6rem;
   }
 }
 .recommended-articles__description {
@@ -244,10 +271,10 @@ input::placeholder {
   font-size: 1.4rem;
   line-height: 2.1rem;
 }
-@media (min-width: 481px) {
+@media (min-width: 1200px) {
   .recommended-articles__description {
-    font-size: 1.6rem;
-    line-height: 2.3rem;
+    font-size: 1.8rem;
+    line-height: 2.7rem;
   }
 }
 
