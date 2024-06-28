@@ -23,12 +23,12 @@
     }
 
     &__content {
-        padding: 0 1.5rem;
-        max-width: 46.6rem;
-        margin: 0 auto;
+        padding: 0 2rem;
 
         @include media.tablet {
             padding: 0;
+            max-width: 46.6rem;
+            margin: 0 auto;
         }
 
         @include media.desktop {
@@ -58,7 +58,7 @@
 
     &__description {
         max-width: 55rem;
-        margin-top: 1.9rem;
+        margin: 1.9rem auto 0;
         font-size: 1.6rem;
         line-height: 2.4rem;
 

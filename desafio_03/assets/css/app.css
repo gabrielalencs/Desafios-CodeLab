@@ -69,13 +69,13 @@ input::placeholder {
   }
 }
 .header__content {
-  padding: 0 1.5rem;
-  max-width: 46.6rem;
-  margin: 0 auto;
+  padding: 0 2rem;
 }
 @media (min-width: 768px) {
   .header__content {
     padding: 0;
+    max-width: 46.6rem;
+    margin: 0 auto;
   }
 }
 @media (min-width: 1200px) {
@@ -105,7 +105,7 @@ input::placeholder {
 }
 .header__description {
   max-width: 55rem;
-  margin-top: 1.9rem;
+  margin: 1.9rem auto 0;
   font-size: 1.6rem;
   line-height: 2.4rem;
 }
@@ -153,6 +153,100 @@ input::placeholder {
 @media (min-width: 1200px) {
   .header__image-container img {
     width: 100%;
+  }
+}
+
+.recommended-articles {
+  margin-top: 7rem;
+  padding: 0 2rem;
+}
+.recommended-articles__title {
+  font-size: 2.4rem;
+}
+@media (min-width: 768px) {
+  .recommended-articles__title {
+    font-size: 2.8rem;
+  }
+}
+@media (min-width: 1200px) {
+  .recommended-articles__title {
+    font-size: 3.2rem;
+  }
+}
+.recommended-articles__container {
+  margin-top: 4.5rem;
+  display: grid;
+  gap: 3.2rem;
+}
+@media (min-width: 768px) {
+  .recommended-articles__container {
+    margin-top: 6rem;
+  }
+}
+@media (min-width: 1200px) {
+  .recommended-articles__container {
+    margin-top: 12rem;
+  }
+}
+.recommended-articles__article {
+  outline: 2px solid #EEEEFF;
+  border-radius: 0.8rem;
+  transition: all 0.3s;
+}
+.recommended-articles__article:hover {
+  outline: 2px solid #846AFF;
+}
+.recommended-articles__image {
+  overflow: hidden;
+  border-radius: 0.8rem 0.8rem 0 0;
+}
+.recommended-articles__image img {
+  width: 100%;
+  border-radius: 0.8rem 0.8rem 0 0;
+  transition: all 0.4s;
+}
+.recommended-articles__image img:hover {
+  transform: scale(1.1);
+}
+.recommended-articles__content {
+  padding: 2.4rem 1.8rem;
+}
+@media (min-width: 481px) {
+  .recommended-articles__content {
+    padding: 2.4rem 4.8rem 2.4rem 1.8rem;
+  }
+}
+.recommended-articles__title-article {
+  font-size: 1.85rem;
+  line-height: 2.34rem;
+}
+@media (max-width: 480px) {
+  .recommended-articles__title-article {
+    width: 30rem;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+}
+@media (min-width: 481px) {
+  .recommended-articles__title-article {
+    width: 100%;
+    font-size: 2rem;
+    line-height: 2.7rem;
+  }
+  .recommended-articles__title-article br {
+    display: none;
+  }
+}
+.recommended-articles__description {
+  margin-top: 1.5rem;
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+}
+@media (min-width: 481px) {
+  .recommended-articles__description {
+    font-size: 1.6rem;
+    line-height: 2.3rem;
   }
 }
 
