@@ -175,7 +175,8 @@ input::placeholder {
 }
 .recommended-articles__container {
   margin-top: 4.5rem;
-  display: grid;
+  display: flex;
+  flex-direction: column;
   gap: 3.2rem;
 }
 @media (min-width: 768px) {
@@ -217,12 +218,12 @@ input::placeholder {
   }
 }
 .recommended-articles__title-article {
-  font-size: 1.85rem;
+  font-size: 1.75rem;
   line-height: 2.34rem;
 }
 @media (max-width: 480px) {
   .recommended-articles__title-article {
-    width: 30rem;
+    max-width: 28.5rem;
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;

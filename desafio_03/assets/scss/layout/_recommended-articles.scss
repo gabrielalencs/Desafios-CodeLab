@@ -20,7 +20,8 @@
 
     &__container {
         margin-top: 4.5rem;
-        display: grid;
+        display: flex;
+        flex-direction: column;
         gap: 3.2rem;
 
         @include media.tablet {
@@ -66,11 +67,11 @@
     }
 
     &__title-article {
-        font-size: 1.85rem;
+        font-size: 1.75rem;
         line-height: 2.34rem;
 
         @include media.mobile {
-            width: 30rem;
+            max-width: 28.5rem;
             text-overflow: ellipsis;
             white-space: nowrap;
             overflow: hidden;
