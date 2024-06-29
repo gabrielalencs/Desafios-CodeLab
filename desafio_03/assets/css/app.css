@@ -284,4 +284,18 @@ input::placeholder {
   }
 }
 
+.footer {
+  padding: 5rem 3rem;
+  text-align: center;
+  background-color: rgba(212, 204, 253, 0.4509803922);
+}
+.footer__assignments {
+  font-size: 1.4rem;
+  line-height: 2.2rem;
+  font-weight: 500;
+}
+.footer__assignments a {
+  color: #846AFF;
+}
+
 /*# sourceMappingURL=app.css.map */
