@@ -290,12 +290,24 @@ input::placeholder {
   background-color: rgba(212, 204, 253, 0.4509803922);
 }
 .footer__assignments {
-  font-size: 1.4rem;
-  line-height: 2.2rem;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
   font-weight: 500;
+}
+@media (min-width: 768px) {
+  .footer__assignments br {
+    display: none;
+  }
 }
 .footer__assignments a {
   color: #846AFF;
+  transition: all 0.3s;
+}
+.footer__assignments a:visited {
+  color: #846AFF;
+}
+.footer__assignments a:hover {
+  color: #674ee2;
 }
 
 /*# sourceMappingURL=app.css.map */
