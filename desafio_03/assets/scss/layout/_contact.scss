@@ -12,6 +12,10 @@
 
     &__title {
         font-size: 2.8rem;
+
+        @include media.desktop {
+            text-align: center;
+        }
     }
 
     &__forms-container {
@@ -25,6 +29,16 @@
         textarea {
             width: 100%;
             margin-bottom: 2.4rem;
+
+            @include media.desktop {
+                width: 59.2rem;
+            }
+        }
+    }
+
+    @include media.desktop {
+        &__form {
+            text-align: center;
         }
     }
 
@@ -33,5 +47,9 @@
         padding: 1.4rem;
         width: 100%;
         font-size: 1.6rem;
+
+        @include media.desktop {
+            width: 59.2rem;
+        }
     }
 }

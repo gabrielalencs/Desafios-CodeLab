@@ -303,6 +303,11 @@ textarea {
 .contact__title {
   font-size: 2.8rem;
 }
+@media (min-width: 1200px) {
+  .contact__title {
+    text-align: center;
+  }
+}
 .contact__forms-container {
   margin-top: 5rem;
 }
@@ -314,11 +319,27 @@ textarea {
   width: 100%;
   margin-bottom: 2.4rem;
 }
+@media (min-width: 1200px) {
+  .contact__forms-container input,
+  .contact__forms-container textarea {
+    width: 59.2rem;
+  }
+}
+@media (min-width: 1200px) {
+  .contact__form {
+    text-align: center;
+  }
+}
 .contact__btn {
   margin-top: 2.4rem;
   padding: 1.4rem;
   width: 100%;
   font-size: 1.6rem;
+}
+@media (min-width: 1200px) {
+  .contact__btn {
+    width: 59.2rem;
+  }
 }
 
 .footer {
