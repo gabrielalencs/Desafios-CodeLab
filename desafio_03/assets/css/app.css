@@ -34,17 +34,25 @@ button:hover {
   color: #846AFF;
 }
 
-input {
+input,
+textarea {
   border: none;
   border: 0.1rem solid #EAEAEA;
   border-radius: 0.4rem;
-  padding: 1rem 2rem;
+  padding: 1.6rem 1.8rem;
+  font-size: 1.4rem;
 }
-input:focus {
+input:focus,
+textarea:focus {
   outline: none;
 }
-input::placeholder {
+input::placeholder,
+textarea::placeholder {
   color: #7C7C8A;
+}
+
+textarea {
+  resize: none;
 }
 
 .header {
@@ -164,7 +172,7 @@ input::placeholder {
 
 .recommended-articles {
   max-width: 121.6rem;
-  margin: 7rem auto 10rem;
+  margin: 7rem auto 0;
   padding: 0 2rem;
 }
 .recommended-articles__title {
@@ -284,10 +292,38 @@ input::placeholder {
   }
 }
 
+.contact {
+  background-color: #F8F8FF;
+}
+.contact__content {
+  max-width: 121.6rem;
+  margin: 7rem auto 0;
+  padding: 7rem 2rem;
+}
+.contact__title {
+  font-size: 2.8rem;
+}
+.contact__forms-container {
+  margin-top: 5rem;
+}
+.contact__forms-container label {
+  display: none;
+}
+.contact__forms-container input,
+.contact__forms-container textarea {
+  width: 100%;
+  margin-bottom: 2.4rem;
+}
+.contact__btn {
+  margin-top: 2.4rem;
+  padding: 1.4rem;
+  width: 100%;
+  font-size: 1.6rem;
+}
+
 .footer {
   padding: 5rem 3rem;
   text-align: center;
-  background-color: rgba(212, 204, 253, 0.4509803922);
 }
 .footer__assignments {
   font-size: 1.6rem;

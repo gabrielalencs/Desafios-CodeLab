@@ -38,11 +38,13 @@ button {
     }
 }
 
-input {
+input,
+textarea {
     border: none;
     border: .1rem solid color.$gray-20;
     border-radius: .4rem;
-    padding: 1rem 2rem;
+    padding: 1.6rem 1.8rem;
+    font-size: 1.4rem;
 
     &:focus {
         outline: none;
@@ -51,4 +53,8 @@ input {
     &::placeholder {
         color: color.$gray-10;
     }
+}
+
+textarea {
+    resize: none;
 }
