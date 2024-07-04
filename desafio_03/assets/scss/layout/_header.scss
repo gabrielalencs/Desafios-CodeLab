@@ -5,12 +5,12 @@
     background-color: color.$gray-40;
 
     &__limit {
+        max-width: 121.6rem;
+        margin: 0 auto;
         padding: 6.4rem 0;
         display: flex;
         flex-direction: column-reverse;
-        gap: 3rem;
-        max-width: 121.6rem;
-        margin: 0 auto;
+        gap: 2.4rem;
         text-align: center;
 
         @include media.desktop {
@@ -23,7 +23,7 @@
     }
 
     &__content {
-        padding: 0 2rem;
+        padding: 0 2.1rem;
 
         @include media.tablet {
             padding: 0;
@@ -39,7 +39,7 @@
 
     &__title {
         font-size: 2.4rem;
-        line-height: 2.8rem;
+        line-height: 2.88rem;
 
         @include media.tablet {
             font-size: 3.2rem;
@@ -58,7 +58,7 @@
 
     &__description {
         max-width: 55rem;
-        margin: 1.9rem auto 0;
+        margin: 2.4rem auto 0;
         font-size: 1.6rem;
         line-height: 2.4rem;
 
@@ -69,7 +69,8 @@
 
         @include media.desktop {
             font-size: 2.4rem;
-            margin: 3.6rem 0 0;
+            line-height: 3.6rem;
+            margin: 3.2rem 0 0;
         }
 
         br {
@@ -83,10 +84,12 @@
     }
 
     &__btn {
-        margin-top: 2.8rem;
-        width: 100%;
+        margin-top: 2.4rem;
+        width: 96%;
         padding: 1.4rem;
-        font-size: 1.5rem;
+        font-size: 1.4rem;
+        font-weight: 700;
+        line-height: 1.641rem;
 
         @include media.tablet {
             width: 21.4rem;
@@ -94,12 +97,12 @@
         }
 
         @include media.desktop {
-            margin-top: 3.6rem;
+            margin-top: 3.3rem;
         }
     }
 
     &__image-container img {
-        width: 50%;
+        width: 20.7rem;
         max-width: 40rem;
         margin: 0 auto;
 
