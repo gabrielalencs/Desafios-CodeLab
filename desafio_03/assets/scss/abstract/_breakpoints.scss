@@ -27,3 +27,9 @@
         @content
     }
 }
+
+@mixin desktopTwo {
+    @media (min-width: 1221px) {
+        @content
+    }
+}

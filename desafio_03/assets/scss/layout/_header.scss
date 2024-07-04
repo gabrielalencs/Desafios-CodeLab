@@ -18,12 +18,16 @@
             align-items: center;
             justify-content: space-between;
             text-align: left;
-            padding: 6.4rem 4rem;
+            padding: 6.4rem 1rem;
+        }
+
+        @include media.desktopTwo {
+            padding: 6.4rem 0;
         }
     }
 
     &__content {
-        padding: 0 2.1rem;
+        padding: 0 2.3rem;
 
         @include media.tablet {
             padding: 0;
@@ -85,7 +89,7 @@
 
     &__btn {
         margin-top: 2.4rem;
-        width: 96%;
+        width: 100%;
         padding: 1.4rem;
         font-size: 1.4rem;
         font-weight: 700;
