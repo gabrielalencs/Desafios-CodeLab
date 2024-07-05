@@ -358,6 +358,7 @@ textarea {
 }
 @media (min-width: 1200px) {
   .contact__title {
+    font-size: 3.2rem;
     text-align: center;
   }
 }
@@ -371,6 +372,19 @@ textarea {
 .contact__forms-container textarea {
   width: 100%;
   margin-bottom: 2.4rem;
+  font-size: 1.4rem;
+  transition: all 0.3s;
+  border: 2px solid transparent;
+}
+.contact__forms-container input:focus,
+.contact__forms-container textarea:focus {
+  border: 2px solid #846AFF;
+}
+@media (min-width: 768px) {
+  .contact__forms-container input,
+  .contact__forms-container textarea {
+    font-size: 1.8rem;
+  }
 }
 @media (min-width: 1200px) {
   .contact__forms-container input,
@@ -400,11 +414,14 @@ textarea {
   text-align: center;
 }
 .footer__assignments {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   line-height: 2.4rem;
   font-weight: 500;
 }
 @media (min-width: 768px) {
+  .footer__assignments {
+    font-size: 1.6rem;
+  }
   .footer__assignments br {
     display: none;
   }

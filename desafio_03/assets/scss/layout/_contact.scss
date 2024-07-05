@@ -14,6 +14,7 @@
         font-size: 2.8rem;
 
         @include media.desktop {
+            font-size: 3.2rem;
             text-align: center;
         }
     }
@@ -29,6 +30,17 @@
         textarea {
             width: 100%;
             margin-bottom: 2.4rem;
+            font-size: 1.4rem;
+            transition: all .3s;
+            border: 2px solid transparent;
+
+            &:focus {
+                border: 2px solid color.$brand-color;
+            }
+
+            @include media.tablet {
+                font-size: 1.8rem;
+            }
 
             @include media.desktop {
                 width: 59.2rem;

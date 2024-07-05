@@ -7,11 +7,13 @@
     // background-color: #d4ccfd73;
 
     &__assignments {
-        font-size: 1.6rem;
+        font-size: 1.4rem;
         line-height: 2.4rem;
         font-weight: 500;
 
         @include media.tablet {
+            font-size: 1.6rem;
+            
             br {
                 display: none;
             }
