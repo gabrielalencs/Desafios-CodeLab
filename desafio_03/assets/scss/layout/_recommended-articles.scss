@@ -1,7 +1,6 @@
 @use '../abstract/colors' as color;
 @use '../abstract/breakpoints' as media;
 
-
 .recommended-articles {
     max-width: 123.6rem;
     margin: 6.4rem auto 0;
@@ -148,14 +147,14 @@
 
         .recommended-articles__article:last-child h3.recommended-articles__title-article {
             font-size: 1.85rem;
-            max-width: none; 
-            display: block; 
-            -webkit-line-clamp: initial; 
-            -webkit-box-orient: initial; 
-            overflow: visible; 
-            text-overflow: clip; 
+            max-width: none;
+            display: block;
+            -webkit-line-clamp: initial;
+            -webkit-box-orient: initial;
+            overflow: visible;
+            text-overflow: clip;
         }
-       
+
     }
 
     &__description {
