@@ -6,6 +6,12 @@
     max-width: 40rem;
 }
 
+@media (width >= 1200px) {
+    .containerLogin {
+        margin: 0;
+    }
+}
+
 .welcomeTitle {
     font-size: 1.6rem;
     font-weight: 500;

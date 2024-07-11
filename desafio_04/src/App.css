@@ -23,15 +23,47 @@ html {
     font-size: 62.5%;
 }
 
-@media (width >= 992px) {
+#root {
+    max-width: 125rem;
+    margin: 0 auto;
+}
+
+.containerImageHero {
+    display: none;
+}
+
+@media (width >= 1200px) {
     body {
         background: rgb(243, 255, 242);
         background-repeat: no-repeat;
         background: linear-gradient(90deg, rgba(243, 255, 242, 1) 50%, rgba(255, 255, 255, 1) 50%);
     }
+
+    #root {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100vh;
+        padding: 0 5rem;
+    }
+
+    .containerImageHero {
+        display: block;
+        
+        img {
+            width: 40rem;
+        }
+    }
 }
 
-#root {
-    max-width: 121.6rem;
-    margin: 0 auto;
+
+@media (width >= 1450px) {
+    #root {
+        max-width: 145rem;
+        padding: 0 5rem 0 0;
+    }
+
+    .containerImageHero img {
+        width: 50rem;
+    }
 }

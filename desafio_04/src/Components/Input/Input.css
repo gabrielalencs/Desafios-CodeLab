@@ -20,6 +20,7 @@
         border: 1px solid var(--gray-20);
         border-radius: .4rem;
         transition: all .3s;
+        font-size: 1.6rem;
 
         &:focus {
             outline: none;
@@ -44,7 +45,6 @@
 
     input {
         cursor: pointer;
-        border-color: red !important;
         accent-color: var(--primary-color);
     }
 }

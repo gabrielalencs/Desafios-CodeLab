@@ -1,16 +1,15 @@
 import './App.css';
 import Login from './Components/ContainerLogin/ContainerLogin';
-// import imageHero from './assets/hero.svg';
+import imageHero from './assets/hero.svg';
 
 function App() {
 
     return (
         <>
-            <div>
-                {/* image */}
+            <div className='containerImageHero'>
+                <img src={imageHero} alt="" />
             </div>
 
-            
             <Login />
         </>
     )
