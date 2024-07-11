@@ -1,0 +1,42 @@
+@import '../../App.css';
+
+.containerLogin {
+    width: 90%;
+    margin: 10rem auto 0;
+    max-width: 40rem;
+}
+
+.welcomeTitle {
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: var(--dark);
+}
+
+.mainTitle {
+    margin-top: .8rem;
+    font-size: 2.4rem;
+    color: var(--dark);
+}
+
+.containerInformationLogin {
+    margin-top: 4rem;
+}
+
+.forgotPassword {
+    margin-top: 2.4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    span {
+        font-size: 1.4rem;
+        font-weight: 500;
+        color: var(--primary-color);
+        transition: all .3s;
+        cursor: pointer;
+
+        &:hover {
+            color: #138054;
+        }
+    }
+}

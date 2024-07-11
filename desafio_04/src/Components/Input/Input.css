@@ -1,0 +1,50 @@
+@import '../../App.css';
+
+.inputContainer:last-child {
+    margin-bottom: 0;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    margin-bottom: 3.2rem;
+
+    label {
+        font-size: 1.4rem;
+        color: var(--dark);
+    }
+
+    input {
+        padding: 1.4rem;
+        border: 1px solid var(--gray-20);
+        border-radius: .4rem;
+        transition: all .3s;
+
+        &:focus {
+            outline: none;
+            border-color: var(--primary-color);
+        }
+    }
+}
+
+.radioContainer {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    gap: .8rem;
+    cursor: pointer;
+    
+    label {
+        font-size: 1.4rem;
+        color: var(--dark);
+        font-weight: 500;
+        cursor: pointer;
+    }
+
+    input {
+        cursor: pointer;
+        border-color: red !important;
+        accent-color: var(--primary-color);
+    }
+}

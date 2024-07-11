@@ -10,9 +10,8 @@ function App() {
                 {/* image */}
             </div>
 
-            <div>
-                <Login />
-            </div>
+            
+            <Login />
         </>
     )
 }
