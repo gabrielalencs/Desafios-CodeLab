@@ -2,11 +2,17 @@
 
 .containerLogin {
     width: 90%;
-    margin: 10rem auto 0;
+    margin: 10rem auto;
     max-width: 40rem;
 }
 
-@media (width >= 1200px) {
+@media (width >= 768px) {
+    .containerLogin {
+        margin: 7rem auto 4rem;
+    }
+}
+
+@media (width >= 1450px) {
     .containerLogin {
         margin: 0;
     }
@@ -44,5 +50,24 @@
         &:hover {
             color: #138054;
         }
+    }
+}
+
+.containerButtons {
+    margin-top: 5.6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+}
+
+.noAccount {
+    margin-top: 6.4rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+    text-align: center;
+
+    span {
+        color: var(--primary-color);
+        cursor: pointer;
     }
 }

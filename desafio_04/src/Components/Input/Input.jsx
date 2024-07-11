@@ -1,6 +1,6 @@
 import './Input.css';
 
-const Input = ({ type, label, id, placeholder }) => {
+const Input = ({ type, label, id, placeholder, handleClick, ...rest }) => {
     return (
         <div className={type == 'email' || type == 'password' ? 'inputContainer' : 'radioContainer'}>
             <label htmlFor={id}>
@@ -12,6 +12,8 @@ const Input = ({ type, label, id, placeholder }) => {
                 id={id}
                 name={id}
                 placeholder={placeholder}
+                {...rest}
+                onClick={handleClick}
             />
         </div>
     )
