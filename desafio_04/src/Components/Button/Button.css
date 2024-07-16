@@ -34,3 +34,9 @@
         width: 1.6rem;
     }
 }
+
+@media (width <= 768px) {
+    .button {
+        font-size: 1.8rem;
+    }
+}
