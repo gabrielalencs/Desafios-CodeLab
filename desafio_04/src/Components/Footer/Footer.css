@@ -1,19 +1,36 @@
-@import '../../App.css';
-
 .footer {
     margin-top: 10rem;
     padding: 5rem 3rem;
     text-align: center;
     background-color: var(--gray-30);
+}
 
-    .footer-paragraph {
-        font-size: 1.4rem;
-        line-height: 2.4rem;
-        font-weight: 600;
+.footer-paragraph {
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    font-weight: 600;
+}
+
+a {
+    color: var(--primary-color);
+    transition: all .3s;
+    text-decoration: none;
+
+    &:visited {
+        color: var(--primary-color);
     }
 
-    a {
-        color: var(--primary-color);
-        transition: all .3s;
+    &:hover {
+        color: #13774f;
+    }
+}
+
+@media (width >= 768px) {
+    .footer-paragraph {
+        font-size: 1.6rem;
+        
+        br {
+            display: none;
+        }
     }
 }
