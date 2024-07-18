@@ -5,7 +5,7 @@
 </div>
 
 <h2>Sobre o desafio 👨🏻‍💻</h2>
-<p>Login é um projeto que consiste em uma site estático que simula uma tela de login para acesso a uma plataforma.</p>
+<p>Login é um projeto que consiste em um site estático que simula uma tela de login para acesso a uma plataforma.</p>
 <p>O objetivo era contruir um layout idêntico ao figma fornecido. </p>
 <p> <a href="https://www.figma.com/design/Yb9IBH56g7T1hdIyZ3BMNO/Desafios---CodeLab?node-id=4261-2&t=9LZhwgzehecnXQK6-0"><b>Figma do projeto</b></a></p>
 
