@@ -2,13 +2,13 @@
 
 .containerLogin {
     width: 90%;
-    margin: 10rem auto;
+    margin: 10rem auto 0;
     max-width: 40rem;
 }
 
 @media (width >= 768px) {
     .containerLogin {
-        margin: 7rem auto 4rem;
+        margin: 7rem auto 0;
     }
 }
 

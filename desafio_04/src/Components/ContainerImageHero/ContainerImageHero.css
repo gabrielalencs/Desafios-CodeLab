@@ -1,0 +1,14 @@
+.containerImageHero {
+    display: none;
+}
+
+@media (width >= 1450px) {
+    .containerImageHero {
+        display: block;
+    
+        img {
+            width: 50rem;
+    
+        }
+    }
+}

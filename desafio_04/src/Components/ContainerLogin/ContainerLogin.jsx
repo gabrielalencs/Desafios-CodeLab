@@ -5,7 +5,6 @@ import Button from '../Button/Button';
 
 const Login = () => {
 
-
     return (
         <div className='containerLogin'>
             <span className='welcomeTitle'>Bem-vindo de volta</span>

@@ -28,9 +28,6 @@ html {
     margin: 0 auto;
 }
 
-.containerImageHero {
-    display: none;
-}
 
 @media (width >= 1450px) {
     body {
@@ -46,14 +43,5 @@ html {
         justify-content: space-between;
         align-items: center;
         height: 100vh;
-    }
-
-    .containerImageHero {
-        display: block;
-
-        img {
-            width: 50rem;
-
-        }
     }
 }
