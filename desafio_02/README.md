@@ -26,4 +26,4 @@
 
 <h2>Deploy 🚀</h3>
 <p>Para o deploy do projeto utilizei a <b>Vercel</b> </p>
-<p>Você pode visualizar o projeto <a href="https://desafios-codelandia-desafio-02.vercel.app/"> <b>clicando aqui</b> </a> </p>
+<p>Você pode visualizar o projeto <a href="https://desafios-codelab-desafio-02.vercel.app/"> <b>clicando aqui</b> </a> </p>
