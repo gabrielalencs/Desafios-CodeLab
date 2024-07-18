@@ -1,0 +1,36 @@
+@use '../base/colors' as color;
+@use '../base/breakpoints' as media;
+
+.footer {
+    padding: 5rem 3rem;
+    text-align: center;
+    background-color: color.$dark-20;
+    color: color.$white;
+
+    &-paragraph {
+        font-size: 1.4rem;
+        line-height: 2.4rem;
+        font-weight: 400;
+
+        @include media.smallTablets {
+            font-size: 1.6rem;
+
+            br {
+                display: none;
+            }
+        }
+
+        a {
+            color: color.$brand-color;
+            transition: all .3s;
+
+            &:visited {
+                color: color.$brand-color;
+            }
+
+            &:hover {
+                color: #674ee2;
+            }
+        }
+    }
+}

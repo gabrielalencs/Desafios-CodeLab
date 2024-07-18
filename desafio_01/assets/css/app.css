@@ -191,4 +191,34 @@ main {
   border: 2px solid #e07b67;
 }
 
+.footer {
+  padding: 5rem 3rem;
+  text-align: center;
+  background-color: #17171A;
+  color: #FFFFFF;
+}
+.footer-paragraph {
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  font-weight: 400;
+}
+@media (min-width: 768px) {
+  .footer-paragraph {
+    font-size: 1.6rem;
+  }
+  .footer-paragraph br {
+    display: none;
+  }
+}
+.footer-paragraph a {
+  color: #e07b67;
+  transition: all 0.3s;
+}
+.footer-paragraph a:visited {
+  color: #e07b67;
+}
+.footer-paragraph a:hover {
+  color: #674ee2;
+}
+
 /*# sourceMappingURL=app.css.map */
