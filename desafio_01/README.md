@@ -29,4 +29,4 @@
 
 <h2>Deploy 🚀</h3>
 <p>Para o deploy do projeto utilizei o <b>GitHub Pages</b> </p>
-<p>Você pode visualizar o projeto <a href="https://gabrielalencs.github.io/Desafios-Codelandia/desafio_01/"> <b>clicando aqui</b> </a> </p>
+<p>Você pode visualizar o projeto <a href="https://gabrielalencs.github.io/Desafios-CodeLab/desafio_01/"> <b>clicando aqui</b> </a> </p>
