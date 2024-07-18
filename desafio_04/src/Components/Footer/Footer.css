@@ -2,10 +2,9 @@
     margin-top: 10rem;
     padding: 5rem 3rem;
     text-align: center;
-    background-color: var(--gray-30);
 }
 
-.footer-paragraph {
+.footerParagraph {
     font-size: 1.4rem;
     line-height: 2.4rem;
     font-weight: 600;
@@ -26,11 +25,17 @@ a {
 }
 
 @media (width >= 768px) {
-    .footer-paragraph {
+    .footerParagraph {
         font-size: 1.6rem;
         
         br {
             display: none;
         }
+    }
+}
+
+@media (width >= 1450px) {
+    .footer {
+        margin-top: 0;
     }
 }

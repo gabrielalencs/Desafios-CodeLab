@@ -3,7 +3,7 @@ import './Footer.css';
 const Footer = () => {
     return (
         <footer className='footer'>
-            <p className="footer-paragraph">
+            <p className="footerParagraph">
                 Desafio da comunidade
                 <a href="https://github.com/iuricode/desafios-frontend" 
                     target='_blank' 

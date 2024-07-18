@@ -28,7 +28,6 @@ html {
     margin: 0 auto;
 }
 
-
 @media (width >= 1450px) {
     body {
         background: rgb(243, 255, 242);
@@ -39,9 +38,13 @@ html {
     #root {
         max-width: 145rem;
         padding: 0 5rem 0 0;
+    }
+    
+    .mainContent {
+        height: 100vh;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        height: 100vh;
     }
+   
 }

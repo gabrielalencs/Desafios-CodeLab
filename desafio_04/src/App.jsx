@@ -7,8 +7,11 @@ function App() {
 
     return (
         <>
-            <ContainerImageHero />
-            <Login />
+            <main className='mainContent'>
+                <ContainerImageHero />
+                <Login />
+            </main>
+            
             <Footer />
         </>
     )
