@@ -1,9 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap");
 
 @tailwind base;
-
 @tailwind components;
-
 @tailwind utilities;
 
 h1,
@@ -14,14 +12,12 @@ span {
     transition: all .3s;
 }
 
-
 .cardContainerImage {
     @apply bg-gray-primary p-10;
 }
 
 .cardImage {
     transition: all .4s;
-
     @apply mx-auto hover:scale-110;
 }
 
