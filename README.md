@@ -1,5 +1,5 @@
 <div align="center">
- <h1>Desafios da Comunidade $\color{orange}{\textsf{CodeLab}}$</h1> 
+ <h1>Desafios da Comunidade CodeLab</h1> 
 </div>
 
 <p>Seja bem-vindo(a). Este é um repositório para as minhas soluções dos desafios $\color{blue}{\textsf{Front-End}}$ da comunidade CodeLab, criada pelo desenvolvedor $\color{Indigo}{\textsf{IuriCode}}$. Na tabela abaixo você encontra todos os desafios concluídos até o momento.</p> 
