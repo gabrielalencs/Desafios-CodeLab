@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@0,400..840;1,400..840&family=Archivo:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --brand-color: #f1a5b1;
+
+  --dark: #0b0a0a;
+
+  --white: #ffffff;
+}
+
+body {
+  font-family: "Archivo", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Andada Pro", serif;
+}
