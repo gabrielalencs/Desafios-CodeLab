@@ -2,7 +2,7 @@
  <h1>Desafios da Comunidade CodeLab</h1> 
 </div>
 
-<p>Seja bem-vindo(a). Este é um repositório para as minhas soluções dos desafios Front-End da comunidade $\color{DarkViolet}{\textsf{CodeLab}}$, criada pelo desenvolvedor $\color{DarkViolet}{\textsf{IuriCode}}$. </p> 
+<p>Seja bem-vindo(a). Este é um repositório para as minhas soluções dos desafios Front-End da comunidade $\color{DarkViolet}{\textsf{CodeLab}}$ criada pelo desenvolvedor $\color{DarkViolet}{\textsf{IuriCode}}$. </p> 
 
 ## Desafios Concluídos 🏆
 <p>Você pode acessar a vitrine onde estão todos os desafios já concluídos <a href="https://gabrielalencs.github.io/Site-Desafios-CodeLab/" target="_blank">Clicando Aqui</a>.</p>
