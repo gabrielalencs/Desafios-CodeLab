@@ -2,14 +2,10 @@
  <h1>Desafios da Comunidade $\color{orange}{\textsf{CodeLab}}$</h1> 
 </div>
 
-<p>Seja bem-vindo(a). Este é um repositório para as minhas soluções dos desafios $\color{blue}{\textsf{Front-End}}$ da comunidade CodeLab, criada pelo desenvolvedor $\color{Indigo}{\textsf{IuriCode}}$.</p> 
-
-## Vitrine 🚀
-<p>Desenvolvi uma página para visualização dos projetos de uma forma melhor. Você pode acessar <a href="https://gabrielalencs.github.io/Site-Desafios-CodeLab/" target="_blank">Clicando Aqui</a></p>
-
+<p>Seja bem-vindo(a). Este é um repositório para as minhas soluções dos desafios $\color{blue}{\textsf{Front-End}}$ da comunidade CodeLab, criada pelo desenvolvedor $\color{Indigo}{\textsf{IuriCode}}$. Na tabela abaixo você encontra todos os desafios concluídos até o momento.</p> 
 
 ## Desafios Concluídos 🏆
-<p>Na tabela abaixo você encontra todos os desafios concluídos até o momento.</p>
+<p>Você pode acessar a vitrine onde estão todos os desafios já concluídos <a href="https://gabrielalencs.github.io/Site-Desafios-CodeLab/" target="_blank">Clicando Aqui</a>.</p>
 
 | Status | Desafio | Nome | Demo | Repositório | Tecnologias Utilizadas
 :------: | :-----: | :--: | :--: | :--: | :-----:
