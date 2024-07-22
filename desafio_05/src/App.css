@@ -1,12 +1,22 @@
+/* Google Fonts */
+
 @import url("https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@0,400..840;1,400..840&family=Archivo:ital,wght@0,100..900;1,100..900&display=swap");
 
 :root {
-  --brand-color: #f1a5b1;
+    --brand-color: #f1a5b1;
+  
+    --dark: #0b0a0a;
+  
+    --white: #ffffff;
+  }
 
-  --dark: #0b0a0a;
 
-  --white: #ffffff;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
 
 body {
   font-family: "Archivo", sans-serif;
