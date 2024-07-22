@@ -1,0 +1,16 @@
+.socialNetworkIcon {
+    height: 3.2rem;
+    width: 3.2rem;
+    border-radius: 50%;
+    background-color: #FFFFFF33;
+    border: 1px solid var(--white);
+    display: grid;
+    place-items: center;
+}
+
+@media (width >= 1200px) {
+    .socialNetworkIcon {
+        width: 4rem;
+        height: 4rem;
+    }
+}

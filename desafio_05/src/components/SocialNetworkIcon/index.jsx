@@ -1,9 +1,9 @@
 import React from 'react';
-import './styles.css';
+import './styles.css'
 
-const SocialNetworkIcon = ({iconSrc, altIcon}) => {
+const SocialNetworkIcon = ({ iconSrc, altIcon }) => {
     return (
-        <div>
+        <div className='socialNetworkIcon'>
             <img src={iconSrc} alt={altIcon} />
         </div>
     )

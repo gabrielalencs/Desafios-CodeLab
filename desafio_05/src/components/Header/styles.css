@@ -1,0 +1,30 @@
+.header {
+    padding: 3rem 2.4rem;
+    text-align: center;
+}
+
+.containerSocialNetwork {
+    display: none;
+}
+
+@media (width >= 768px) {
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 3.2rem;
+    }
+
+    .containerSocialNetwork {
+        display: block;
+        display: flex;
+        align-items: center;
+        gap: 2.4rem;
+    }
+}
+
+@media (width >= 1200px) {
+    .header {
+        padding: 4.8rem 2rem;
+    }
+}
