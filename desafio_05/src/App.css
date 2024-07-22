@@ -20,8 +20,11 @@
 
 body {
     font-family: "Archivo", sans-serif;
-    background-image: url('assets/images/');
-    /* height: ; */
+    background-image: url('assets/images/wallpaper.png');
+    background-position: bottom; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
 }
 
 h1,
