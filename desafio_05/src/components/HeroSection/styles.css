@@ -1,0 +1,42 @@
+.hero {
+    /* margin-top: 6rem; */
+    padding: 0 2rem;
+}
+
+.containerImageHero {
+    text-align: center;
+}
+
+.imageHero {
+    width: 25rem;
+} 
+
+.heroContent {
+    margin-top: -2rem;
+    color: var(--white);
+}
+
+.heroDirector {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.heroTitle {
+    font-size: 4rem;
+    font-family: 'Andada Pro', sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+    padding-right: 5rem;
+    margin-top: .8rem;
+    line-height: 4.4rem;
+}
+
+.heroDescription {
+    margin-top: 3.2rem;
+    font-family: 'Archivo', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    font-weight: 400;
+}
