@@ -1,6 +1,9 @@
 import './styles.css';
 
 import heroImage from '../../assets/images/image.svg';
+import iconPlay from '../../assets/images/Play.svg'
+
+import Button from '../Button';
 
 const HeroSection = () => {
     return (
@@ -16,8 +19,9 @@ const HeroSection = () => {
                     Chihiro chega a um mundo mágico dominado por uma bruxa. Aqueles que a desobedecem são transformados em animais.
                 </p>
 
-                <div>
-
+                <div className='containerButtons'>
+                    <Button icon={iconPlay} text='Assistir Agora' />
+                    <Button text='Assista o Trailer' />
                 </div>
             </div>
         </section>

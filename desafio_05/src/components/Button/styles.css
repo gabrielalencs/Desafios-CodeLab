@@ -1,0 +1,26 @@
+.btn {
+    padding: 1.4rem 3.2rem;
+    border: .2rem solid var(--brand-color);
+    border-radius: .4rem;
+    text-align: center;
+    color: var(--white);
+    font-weight: 700;
+    width: 100%;
+    background-color: transparent;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    font-family: "Roboto", sans-serif;
+
+    @media (width >= 1024px) {
+        padding: 1.4rem 2rem;
+    }
+}
+
+.btnIcon {
+    background-color: var(--brand-color);
+    color: var(--dark);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .8rem;
+}
