@@ -13,4 +13,4 @@
 ✅ | 02 | JordanShoes | <a href="https://desafios-codelab-desafio-02.vercel.app/" target="_blank">Acessar</a> | <a href="https://github.com/gabrielalencs/Desafios-Codelandia/tree/main/desafio_02">Acessar </a>  | HTML, CSS, TAILWIND CSS
 ✅ | 03 | TechBlog | <a href="https://gabrielalencs.github.io/Desafios-CodeLab/desafio_03/" target="_blank">Acessar</a> | <a href="https://github.com/gabrielalencs/Desafios-CodeLab/tree/main/desafio_03" target="_blank">Acessar</a>  | HTML, CSS, SASS/SCSS
 ✅ | 04 | Login | <a href="https://desafios-codelab-desafio-04.vercel.app/" target="_blank">Acessar</a> | <a href="https://github.com/gabrielalencs/Desafios-CodeLab/tree/main/desafio_04" target="_blank">Acessar</a> | REACTJS
-⚠ | 05 | Studio Ghibli | Em breve | Em breve | Em breve
+✅ | 05 | Studio Ghibli | <a href="https://desafios-codelab-desafio-05.vercel.app/" target="_blank">Acessar</a> | <a href="https://github.com/gabrielalencs/Desafios-CodeLab/tree/main/desafio_05" target="_blank">Acessar</a> | REACTJS
