@@ -1,0 +1,42 @@
+.footer {
+    margin-top: 3rem;
+    padding: 1rem 3rem 5rem;
+    text-align: center;
+}
+
+.footerParagraph {
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    font-weight: 600;
+    color: var(--white);
+}
+
+a {
+    color: var(--brand-color);
+    transition: all .3s;
+    text-decoration: none;
+
+    &:visited {
+        color: var(--brand-color);
+    }
+
+    &:hover {
+        color: #c5717d;
+    }
+}
+
+@media (width >= 768px) {
+    .footerParagraph {
+        font-size: 1.6rem;
+        
+        br {
+            display: none;
+        }
+    }
+}
+
+@media (width >= 1200px) {
+    .footer {
+        margin-top: 15rem;
+    }
+}
