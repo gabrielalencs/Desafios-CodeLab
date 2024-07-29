@@ -2,7 +2,6 @@ import './styles.css';
 
 import logoHeader from '../../assets/images/logo.svg';
 
-
 import SocialNetworkIcon from '../SocialNetworkIcon';
 
 

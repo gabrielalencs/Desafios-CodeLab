@@ -1,5 +1,3 @@
-import React from 'react';
-
 import './styles.css';
 
 import iconGoogle from '../../assets/images/logo-google.svg';
