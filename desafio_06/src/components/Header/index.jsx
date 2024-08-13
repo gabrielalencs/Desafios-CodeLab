@@ -1,5 +1,3 @@
-import React from 'react'
-
 import { 
     HeaderContainer, HeaderBrand, HeaderNav, 
     NavList, NavItem, NavLink 

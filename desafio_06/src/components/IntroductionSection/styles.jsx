@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const IntroductionContainer = styled.section`
-    margin-top: 6rem;
+    margin-top: 6rem !important;
     padding: 0 3rem;
     display: flex;
     flex-direction: column;
@@ -52,6 +52,13 @@ export const Button = styled.button`
     border-radius: .4rem;
     background-color: var(--brand-color);
     color: var(--dark-10);
+    border: 2px solid var(--brand-color);
+    transition: all .3s;
+
+    &:hover {
+        background-color: transparent;
+        color: var(--brand-color);
+    }
 `
 
 export const ContainerImage = styled.div``;
