@@ -11,6 +11,12 @@ const GlobalStyles = createGlobalStyle`
         --white: #ffffff;
     }
 
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
     html {
         font-size: 62.5%;
         scroll-behavior: smooth;
@@ -27,6 +33,13 @@ const GlobalStyles = createGlobalStyle`
     a {
         cursor: pointer;
         color: var(--white);
+    }
+
+    button {
+        border: none;
+        background-color: transparent;
+        font-size: 1.6rem;
+        font-weight: 600;
     }
 
     .container {
