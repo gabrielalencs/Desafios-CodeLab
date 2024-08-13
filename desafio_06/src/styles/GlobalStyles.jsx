@@ -34,6 +34,8 @@ const GlobalStyles = createGlobalStyle`
         margin: 0 auto;
     }
 
+
+
     /* input[type = "checkbox"] {
         -webkit-appearance: none;
         display: none;

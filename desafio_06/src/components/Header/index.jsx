@@ -1,11 +1,12 @@
 import React from 'react'
 
-import { HeaderContainer, HeaderBrand, HeaderNav, NavList, NavItem, NavLink } from './styles'
+import { 
+    HeaderContainer, HeaderBrand, HeaderNav, 
+    NavList, NavItem, NavLink 
+} from './styles'
 
 
 const Header = () => {
-
-
     return (
         <HeaderContainer className='container'>
             <div>
@@ -35,15 +36,6 @@ const Header = () => {
                     </NavItem>
                 </NavList>
             </HeaderNav>
-
-            {/* <div>
-                <label className="bar" htmlFor="check">
-                    <input type="checkbox" id="check" />
-                    <span className="top"></span>
-                    <span className="middle"></span>
-                    <span className="bottom"></span>
-                </label>
-            </div> */}
         </HeaderContainer>
     )
 }
