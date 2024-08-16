@@ -6,7 +6,7 @@ import {
 
 import Button from "../../Button";
 
-import imageHero from '../../../assets/images/image.svg'
+import imageHero from '../../../assets/images/image.svg';
 
 const IntroductionSection = () => {
     return (

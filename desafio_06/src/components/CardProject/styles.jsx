@@ -8,12 +8,7 @@ export const ProjectImage = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 8.6rem 20rem;
-
-    @media (width >= 768px) {
-        padding: 8.6rem 10rem;
-
-    }
+    padding: 9rem 0;
 `;
 
 export const ImageText = styled.span`

@@ -4,6 +4,7 @@ import Header from "./components/layout/Header";
 import IntroductionSection from "./components/layout/IntroductionSection";
 import AboutSection from "./components/layout/AboutSection";
 import ProjectsSection from "./components/layout/ProjectsSection";
+import ServicesSection from "./components/layout/ServicesSection";
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
             <IntroductionSection />
             <AboutSection />
             <ProjectsSection />
+            <ServicesSection />
         </>
     )
 }

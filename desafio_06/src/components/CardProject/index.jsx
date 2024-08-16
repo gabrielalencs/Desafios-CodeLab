@@ -1,5 +1,8 @@
 
-import { Card, ContainerButtons, ImageText, ProjectImage, ProjectName, Technologies } from "./styles";
+import { 
+    Card, ContainerButtons, ImageText,
+    ProjectImage, ProjectName, Technologies 
+} from "./styles";
 
 import Button from "../Button";
 
@@ -13,7 +16,6 @@ const CardProject = () => {
             </ProjectImage>
             <ProjectName>Nome do projeto</ProjectName>
             <Technologies>Tecnologias usadas no projeto</Technologies>
-
             <ContainerButtons>
                 <Button
                     text='Acessar o projeto'
