@@ -6,7 +6,6 @@ export const AboutContainer = styled.section`
     display: flex;
     flex-direction: column;
     gap: 6.4rem;
-    margin-bottom: 50rem !important;
 `;
 
 export const ContainerTexts = styled.div`

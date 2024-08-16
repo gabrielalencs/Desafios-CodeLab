@@ -1,8 +1,9 @@
 import GlobalStyles from "./styles/GlobalStyles";
 
-import AboutSection from "./components/AboutSection";
-import Header from "./components/Header";
-import IntroductionSection from "./components/IntroductionSection";
+import Header from "./components/layout/Header";
+import IntroductionSection from "./components/layout/IntroductionSection";
+import AboutSection from "./components/layout/AboutSection";
+import ProjectsSection from "./components/layout/ProjectsSection";
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
             <Header />
             <IntroductionSection />
             <AboutSection />
+            <ProjectsSection />
         </>
     )
 }

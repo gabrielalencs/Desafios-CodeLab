@@ -1,10 +1,12 @@
 import { 
     IntroductionContainer, Title, 
     TitleName, Profession,  
-    Image, Button
+    Image
 } from "./styles";
 
-import imageHero from '../../assets/images/image.svg'
+import Button from "../../Button";
+
+import imageHero from '../../../assets/images/image.svg'
 
 const IntroductionSection = () => {
     return (
@@ -15,7 +17,10 @@ const IntroductionSection = () => {
                     <TitleName>Iuri Silva</TitleName>
                 </Title>
                 <Profession>Desenvolvedor Frontend & UI Designer.</Profession>
-                <Button>Baixar currículo</Button>
+                <Button 
+                    text='Baixar currículo' 
+                    marginTop='3rem' 
+                />
             </div>
             <div>
                 <Image src={imageHero} alt="imagem de um globo terrestre em cima de um celular" />

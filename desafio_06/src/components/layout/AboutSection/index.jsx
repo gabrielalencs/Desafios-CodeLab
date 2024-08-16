@@ -4,10 +4,10 @@ import {
     Icon, Title, TitleIcon
 } from "./styles";
 
-import IconSmile from '../../assets/images/smile.svg';
-import IconEmail from '../../assets/images/mail.svg';
-import IconInstagram from '../../assets/images/instagram.svg';
-import IconPhone from '../../assets/images/phone.svg';
+import IconSmile from '../../../assets/images/smile.svg';
+import IconEmail from '../../../assets/images/mail.svg';
+import IconInstagram from '../../../assets/images/instagram.svg';
+import IconPhone from '../../../assets/images/phone.svg';
 
 
 const AboutSection = () => {
@@ -50,4 +50,4 @@ const AboutSection = () => {
     )
 }
 
-export default AboutSecti
+export default AboutSection

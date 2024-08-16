@@ -46,20 +46,20 @@ export const Profession = styled.p`
     }
 `
 
-export const Button = styled.button`
-    margin-top: 3rem;
-    padding: 1rem 4rem;
-    border-radius: .4rem;
-    background-color: var(--brand-color);
-    color: var(--dark-10);
-    border: 2px solid var(--brand-color);
-    transition: all .3s;
+// export const Button = styled.button`
+//     margin-top: 3rem;
+//     padding: 1rem 4rem;
+//     border-radius: .4rem;
+//     background-color: var(--brand-color);
+//     color: var(--dark-10);
+//     border: 2px solid var(--brand-color);
+//     transition: all .3s;
 
-    &:hover {
-        background-color: transparent;
-        color: var(--brand-color);
-    }
-`
+//     &:hover {
+//         background-color: transparent;
+//         color: var(--brand-color);
+//     }
+// `
 
 export const ContainerImage = styled.div``;
 
