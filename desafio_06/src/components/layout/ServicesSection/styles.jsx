@@ -33,6 +33,15 @@ export const Card = styled.div`
     padding: 3rem;
     border-bottom: 3px solid var(--brand-color);
     flex: 1;
+    /* text-align: center; */
+
+    @media (width >= 480px) {
+        text-align: center;
+    }
+
+    @media (width >= 992px) {
+        text-align: left;
+    }
 `;
 
 export const CardTitle = styled.h3`

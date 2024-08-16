@@ -12,10 +12,12 @@ function App() {
         <>
             <GlobalStyles />
             <Header />
-            <IntroductionSection />
-            <AboutSection />
-            <ProjectsSection />
-            <ServicesSection />
+            <main>
+                <IntroductionSection />
+                <AboutSection />
+                <ProjectsSection />
+                <ServicesSection />
+            </main>
         </>
     )
 }
