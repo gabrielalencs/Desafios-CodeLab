@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const ServicesContainer = styled.section`
     margin-top: 15rem !important;
     padding: 0 3rem;
-    margin-bottom: 10rem;
 
     @media (width >= 992px) {
         margin-top: 20rem !important;
@@ -33,7 +32,6 @@ export const Card = styled.div`
     padding: 3rem;
     border-bottom: 3px solid var(--brand-color);
     flex: 1;
-    /* text-align: center; */
 
     @media (width >= 480px) {
         text-align: center;

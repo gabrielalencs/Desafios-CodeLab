@@ -6,7 +6,7 @@ import {
 
 import Button from "../../Button";
 
-import imageHero from '../../../assets/images/image.svg';
+import ImageHero from '../../../assets/images/image.svg';
 
 const IntroductionSection = () => {
     return (
@@ -23,7 +23,7 @@ const IntroductionSection = () => {
                 />
             </div>
             <div>
-                <Image src={imageHero} alt="imagem de um globo terrestre em cima de um celular" />
+                <Image src={ImageHero} alt="imagem de um globo terrestre em cima de um celular" />
             </div>
         </IntroductionContainer>
     )
