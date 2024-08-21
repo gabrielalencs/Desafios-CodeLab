@@ -13,7 +13,15 @@ export const IntroductionContainer = styled.section`
     }
 `;
 
-export const Content = styled.div``
+export const Content = styled.div`
+    @media (width >= 480px) {
+        text-align: center;
+    }
+
+    @media (width >= 992px) {
+        text-align: left;
+    }
+`
 
 export const Title = styled.h1`
     font-size: 2.4rem;
@@ -46,23 +54,16 @@ export const Profession = styled.p`
     }
 `
 
-// export const Button = styled.button`
-//     margin-top: 3rem;
-//     padding: 1rem 4rem;
-//     border-radius: .4rem;
-//     background-color: var(--brand-color);
-//     color: var(--dark-10);
-//     border: 2px solid var(--brand-color);
-//     transition: all .3s;
+export const ContainerImage = styled.div`
+    text-align: center;
 
-//     &:hover {
-//         background-color: transparent;
-//         color: var(--brand-color);
-//     }
-// `
-
-export const ContainerImage = styled.div``;
+    @media (width >= 992px) {
+        text-align: left;
+    }
+`;
 
 export const Image = styled.img`
     width: 100%;
+    max-width: 50rem;
+    margin: 0 auto;
 `;

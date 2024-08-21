@@ -1,6 +1,14 @@
 import styled from "styled-components";
 
-export const Card = styled.div``;
+export const Card = styled.div`
+    @media (width >= 768px) {
+        text-align: center;
+    }
+
+    @media (width >= 992px) {
+        text-align: left;
+    }
+`;
 
 export const ProjectImage = styled.div`
     background-color: var(--dark-20);
@@ -45,5 +53,10 @@ export const ContainerButtons = styled.div`
 
     @media (width >= 768px) {
         flex-direction: row;
+        justify-content: center;
+    }
+
+    @media (width >= 992px) {
+        justify-content: flex-start;
     }
 `;
