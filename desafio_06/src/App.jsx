@@ -9,7 +9,6 @@ import SkillsSection from "./components/layout/SkillsSection";
 import Footer from "./components/layout/Footer";
 
 function App() {
-
     return (
         <>
             <GlobalStyles />
