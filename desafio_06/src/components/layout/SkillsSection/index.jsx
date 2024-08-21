@@ -21,7 +21,7 @@ const SkillsSection = () => {
     ];
 
     return (
-        <SkillsContainer className='container'>
+        <SkillsContainer>
             <Title>Habilidades</Title>
             <ContainerCards>
                 {

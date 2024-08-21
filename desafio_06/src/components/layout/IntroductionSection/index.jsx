@@ -10,7 +10,7 @@ import ImageHero from '../../../assets/images/image.svg';
 
 const IntroductionSection = () => {
     return (
-        <IntroductionContainer className="container">
+        <IntroductionContainer>
             <div>
                 <Title>
                     Olá, eu sou

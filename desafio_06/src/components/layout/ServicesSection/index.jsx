@@ -18,7 +18,7 @@ const ServicesSection = () => {
     ];
 
     return (
-        <ServicesContainer className='container'>
+        <ServicesContainer>
             <Title>Serviços</Title>
             <ContainerCards>
                 {

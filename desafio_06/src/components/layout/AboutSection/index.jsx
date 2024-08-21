@@ -19,7 +19,7 @@ const AboutSection = () => {
     ];
 
     return (
-        <AboutContainer className="container">
+        <AboutContainer>
             <ContainerTexts>
                 <Title>
                     Sobre mim

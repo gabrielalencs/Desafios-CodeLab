@@ -5,7 +5,7 @@ import CardProject from "../../CardProject";
 
 const ProjectsSection = () => {
     return (
-        <ProjectsContainer className="container">
+        <ProjectsContainer>
             <Title>Projetos</Title>
 
             <ContainerCards>

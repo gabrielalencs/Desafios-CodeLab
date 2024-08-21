@@ -6,6 +6,7 @@ import AboutSection from "./components/layout/AboutSection";
 import ProjectsSection from "./components/layout/ProjectsSection";
 import ServicesSection from "./components/layout/ServicesSection";
 import SkillsSection from "./components/layout/SkillsSection";
+import Footer from "./components/layout/Footer";
 
 function App() {
 
@@ -13,13 +14,14 @@ function App() {
         <>
             <GlobalStyles />
             <Header />
-            <main>
+            <main className="container">
                 <IntroductionSection />
                 <AboutSection />
                 <ProjectsSection />
                 <ServicesSection />
                 <SkillsSection />
             </main>
+            <Footer />
         </>
     )
 }
