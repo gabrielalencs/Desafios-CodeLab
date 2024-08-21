@@ -28,7 +28,6 @@ export const HeaderNav = styled.nav`
     @media (width >= 992px) {
         display: block;
     }
-
 `;
 
 export const NavList = styled.ul`

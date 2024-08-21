@@ -1,8 +1,7 @@
 import { 
     HeaderContainer, HeaderBrand, HeaderNav, 
     NavList, NavItem, NavLink 
-} from './styles'
-
+} from './styles';
 
 const Header = () => {
     return (
@@ -14,23 +13,19 @@ const Header = () => {
             <HeaderNav>
                 <NavList>
                     <NavItem>
-                        <NavLink>Início</NavLink>
+                        <NavLink href='#introduction'>Início</NavLink>
                     </NavItem>
-
                     <NavItem>
-                        <NavLink>Sobre Mim</NavLink>
+                        <NavLink href='#about'>Sobre Mim</NavLink>
                     </NavItem>
-
                     <NavItem>
-                        <NavLink>Projetos</NavLink>
+                        <NavLink href='#projects'>Projetos</NavLink>
                     </NavItem>
-
                     <NavItem>
-                        <NavLink>Serviços</NavLink>
+                        <NavLink href='#services'>Serviços</NavLink>
                     </NavItem>
-
                     <NavItem>
-                        <NavLink>Habilidades</NavLink>
+                        <NavLink href='#skills'>Habilidades</NavLink>
                     </NavItem>
                 </NavList>
             </HeaderNav>

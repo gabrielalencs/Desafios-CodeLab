@@ -21,7 +21,7 @@ const SkillsSection = () => {
     ];
 
     return (
-        <SkillsContainer>
+        <SkillsContainer id='skills'>
             <Title>Habilidades</Title>
             <ContainerCards>
                 {
