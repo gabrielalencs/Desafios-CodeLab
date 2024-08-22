@@ -7,7 +7,7 @@
 ## Desafios Concluídos 🏆
 <p>Você pode acessar a vitrine onde estão todos os desafios já concluídos <a href="https://gabrielalencs.github.io/Site-Desafios-CodeLab/" target="_blank">Clicando Aqui</a>.</p>
 
-| Status | Desafio | Nome | Demo | Repositório | Tecnologias Utilizadas
+| Status | Desafio | Nome | Deploy | Repositório | Tecnologias Utilizadas
 :------: | :-----: | :--: | :--: | :--: | :-----:
 ✅ | 01 | Blog | <a href="https://gabrielalencs.github.io/Desafios-CodeLab/desafio_01/" target="_blank">Acessar</a> | <a href="https://github.com/gabrielalencs/Desafios-Codelandia/tree/main/desafio_01">Acessar </a> | HTML, CSS, JAVASCRIPT, SASS/SCSS
 ✅ | 02 | JordanShoes | <a href="https://desafios-codelab-desafio-02.vercel.app/" target="_blank">Acessar</a> | <a href="https://github.com/gabrielalencs/Desafios-Codelandia/tree/main/desafio_02">Acessar </a>  | HTML, CSS, TAILWIND CSS
