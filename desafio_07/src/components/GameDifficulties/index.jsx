@@ -19,7 +19,7 @@ const GameDifficulties = ({
     updateGameLevel
 }) => {
 
-    const textButtons = [
+    const infosButtons = [
         { 
             id: 1, 
             difficulty: 'Fácil',
@@ -49,10 +49,8 @@ const GameDifficulties = ({
 
         updateGameLevel(difficulty);
     };
-
     
     
-
     return (
         <div className='containerGameDifficulties'>
             <BatIcon
@@ -69,7 +67,7 @@ const GameDifficulties = ({
 
             <div className='containerButtons'>
                 {
-                    textButtons.map(({ id, difficulty, pairs }) => (
+                    infosButtons.map(({ id, difficulty, pairs }) => (
                         <Button
                             key={id}
                             classStyle='buttonPrimary'
@@ -83,4 +81,4 @@ const GameDifficulties = ({
     )
 }
 
-export default GameDifficulties
+export default GameDifficulties;

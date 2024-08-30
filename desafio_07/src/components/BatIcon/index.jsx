@@ -8,4 +8,4 @@ const BatIcon = ({ classStyles, color }) => {
     )
 }
 
-export default BatIcon
+export default BatIcon;

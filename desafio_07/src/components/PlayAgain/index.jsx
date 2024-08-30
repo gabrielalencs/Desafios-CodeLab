@@ -2,8 +2,7 @@ import { useEffect } from 'react';
 
 import Button from '../Button';
 
-import WebImage from '../../assets/images/web.svg'
-
+import WebImage from '../../assets/images/web.svg';
 
 const PlayAgain = ({
     updateGameStage,
@@ -24,12 +23,12 @@ const PlayAgain = ({
         };
     }, []);
 
-
     const goToGameScreen = () => {
         updateGameStage(2);
         updateGameComplete(false);
         updateResetGame(true);
     }
+
     const goToDifficultiesScreen = () => {
         updateGameStage(1);
         updateGameComplete(false);
@@ -61,4 +60,4 @@ const PlayAgain = ({
     )
 }
 
-export default PlayAgain
+export default PlayAgain;

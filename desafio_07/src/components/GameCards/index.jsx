@@ -5,8 +5,6 @@ import useGridStyles from '../../hooks/useGridStyles';
 
 import { addCardFlipClass, addCorrectPairClass } from '../../utils/classUtils';
 
-
-
 const GameCards = ({
     gameLevelCards,
     updateGameComplete,
@@ -23,8 +21,8 @@ const GameCards = ({
     const [unclickableCardClass, setUnclickableCardClass] = useState('unclickableCard');
 
     const cardRefs = useRef([]);
-
   
+
     const resetGameState = () => {
         setFlipClass('');
         setUnclickableCardClass('unclickableCard');
@@ -34,7 +32,6 @@ const GameCards = ({
             card.classList.remove('cardFlipAnimation', 'cardFlippingAnimation', 'correctPair');
         });
     };
-
 
     useEffect(() => {
         if (resetGame) {
@@ -53,7 +50,6 @@ const GameCards = ({
     }, [resetGame]);
 
     useEffect(() => {
-
         if (numberCardsTurnedOver === 2) {
             const [firstCard, secondCard] = turnedCards;
 
@@ -71,11 +67,9 @@ const GameCards = ({
                 setNumberCardsTurnedOver(0);
             }
         }
-
     }, [numberCardsTurnedOver]);
 
     useEffect(() => {
-
         if (numberCardsTurnedOver > 0) {
             const allPairsAreCorrect = cardRefs.current.every(card =>
                 card.classList.contains('correctPair')
@@ -84,12 +78,10 @@ const GameCards = ({
             if (allPairsAreCorrect) {
                 setTimeout(() => {
                     updateGameComplete(true);
-                }, 500);
+                }, 800);
             }
         }
-
     }, [numberCardsTurnedOver]);
-
 
     const handleClick = (index) => {
         if (numberCardsTurnedOver < 2) {
@@ -102,6 +94,7 @@ const GameCards = ({
         }
     };
 
+    
     return (
         <div className={`containerGameCards ${gridStyles}`}>
             {shuffledCards.map((image, index) => (
@@ -123,4 +116,4 @@ const GameCards = ({
     );
 }
 
-export default GameCards
+export default GameCards;
