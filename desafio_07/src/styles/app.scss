@@ -133,6 +133,11 @@
         top: -5rem;
         right: 0;
         height: 10rem;
+
+        @media (width >= 768px) {
+            height: 15rem;
+            top: -7rem;
+        }
     }
 
     .gameDifficultiesIconTwo {
@@ -140,7 +145,12 @@
         top: -5rem;
         left: 0;
         height: 10rem;
-        transform: rotate(55deg);
+        transform: rotate(50deg);
+
+        @media (width >= 768px) {
+            height: 15rem;
+            top: -7rem;
+        }
     }
 }
 
