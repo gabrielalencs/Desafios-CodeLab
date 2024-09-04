@@ -20,7 +20,7 @@ const HeroSection = () => {
                 <Button text='Ajudar Agora' />
             </div>
 
-            <div className='hidden xl:block xl:relative xl:left-44 xl:after:content-[""] xl:after:block xl:after:absolute xl:after:right-0 xl:after:top-20 xl:z-10 xl:after:bg-yellow-primary xl:after:w-850 xl:after:h-400 xl:after:rounded-500 xl:after:rotate-[-19deg] 2xl:'>
+            <div className='hidden xl:block xl:relative xl:left-44 xl:after:content-[""] xl:after:block xl:after:absolute xl:after:right-0 xl:after:top-20 xl:z-10 xl:after:bg-yellow-primary xl:after:w-850 xl:after:h-400 xl:after:rounded-500 xl:after:rotate-[-19deg]'>
                 <img 
                     src={DogHeroImage} 
                     alt="Imagem de um cachorro"
