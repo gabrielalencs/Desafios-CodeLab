@@ -1,5 +1,3 @@
-import '../../styles/app.scss';
-
 import BatIcon from '../BatIcon';
 import Button from '../Button';
 

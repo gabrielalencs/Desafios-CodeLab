@@ -6,6 +6,7 @@ import Title from './components/Title';
 import GameDifficulties from './components/GameDifficulties';
 import GameCards from './components/GameCards';
 import PlayAgain from './components/PlayAgain';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -26,17 +27,19 @@ function App() {
                         updateGameStage={setGameStage}
                         updateGameLevel={setGameLevelCards}
                     />}
-                {gameStage == 2 && 
+                {gameStage == 2 &&
                     <GameCards
                         gameLevelCards={gameLevelCards}
                         updateGameComplete={setIsGameComplete}
                         resetGame={resetGame}
                         updateResetGame={setResetGame}
                     />}
+
+                {gameStage == 1 && <Footer />}
             </main>
 
-            {isGameComplete && 
-                <PlayAgain 
+            {isGameComplete &&
+                <PlayAgain
                     updateGameStage={setGameStage}
                     gameComplete={isGameComplete}
                     updateGameComplete={setIsGameComplete}

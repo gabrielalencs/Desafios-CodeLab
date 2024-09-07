@@ -1,3 +1,5 @@
+@use 'colors' as color;
+
 @import url("https://fonts.googleapis.com/css2?family=Jolly+Lodger&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
@@ -19,6 +21,18 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+
+    &::-webkit-scrollbar {
+        width: 12px;
+    }
+
+    &::-webkit-scrollbar-track {
+        background: color.$dark;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: color.$brand-color-purple;
+    }
 }
 
 #root {

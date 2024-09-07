@@ -12,8 +12,8 @@
     color: color.$white;
     text-align: center;
 
-    @media (width >= 768px) {
-        margin-top: 2rem;
+    @media (width >=768px) {
+        margin-top: 5rem;
         font-size: 8rem;
     }
 }
@@ -44,7 +44,7 @@
 
     &:hover {
         transform: none;
-        background-color: transparent; 
+        background-color: transparent;
     }
 }
 
@@ -109,7 +109,7 @@
     position: relative;
     padding: 7rem 4rem 6rem;
 
-    @media (width >= 768px) {
+    @media (width >=768px) {
         margin: 5rem 0 0;
         padding: 8rem 7rem 7rem;
     }
@@ -134,7 +134,7 @@
         right: 0;
         height: 10rem;
 
-        @media (width >= 768px) {
+        @media (width >=768px) {
             height: 15rem;
             top: -7rem;
         }
@@ -147,7 +147,7 @@
         height: 10rem;
         transform: rotate(50deg);
 
-        @media (width >= 768px) {
+        @media (width >=768px) {
             height: 15rem;
             top: -7rem;
         }
@@ -179,7 +179,7 @@
             }
         }
     }
-    
+
     .unclickableCard {
         pointer-events: none !important;
     }
@@ -268,7 +268,7 @@
     border-radius: 1.6rem;
     text-align: center;
 
-    @media (width >= 768px) {
+    @media (width >=768px) {
         padding: 5rem 7rem;
         transform: translate(-50%, -50%);
     }
@@ -292,8 +292,53 @@
         font-family: "Inter", sans-serif;
         line-height: 3.2rem;
 
-        @media (width >= 768px) {
+        @media (width >=768px) {
             font-size: 1.7rem;
         }
+    }
+}
+
+.footer {
+    margin-top: 3rem;
+    padding: 1rem 3rem 5rem;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    color: color.$white;
+}
+
+.footerParagraph {
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    font-weight: 600;
+    color: var(--white);
+}
+
+a {
+    color: color.$brand-color-purple;
+    transition: all .3s;
+    text-decoration: none;
+
+    &:visited {
+        color: color.$brand-color-purple;
+    }
+
+    &:hover {
+        color: #6335cf;
+    }
+}
+
+@media (width >=768px) {
+    .footerParagraph {
+        font-size: 1.6rem;
+
+        br {
+            display: none;
+        }
+    }
+}
+
+@media (width >=1200px) {
+    .footer {
+        margin-top: 15rem;
     }
 }
