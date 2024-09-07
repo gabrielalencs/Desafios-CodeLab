@@ -29,7 +29,7 @@ const ProductsSection = () => {
 
 
     return (
-        <section className='container !mt-28 !mb-40 px-10 flex flex-col gap-24 lg:flex-row lg:items-end'>
+        <section className='container !mt-28 px-10 flex flex-col gap-24 lg:flex-row lg:items-end'>
             {
                 productInformation.map(product => (
                     <div key={product.id} className='max-w-320 mx-auto'>
