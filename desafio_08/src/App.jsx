@@ -2,6 +2,7 @@ import './App.css';
 
 import DogStoriesSection from './components/DogStoriesSection';
 import HeroSection from "./components/HeroSection";
+import ProductsSection from './components/ProductsSection';
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
             <main>
                 <HeroSection />
                 <DogStoriesSection />
+                <ProductsSection />
             </main>
         </>
     )
