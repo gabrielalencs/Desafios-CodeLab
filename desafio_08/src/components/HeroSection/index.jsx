@@ -6,7 +6,7 @@ import Button from '../Button';
 
 const HeroSection = () => {
     return (
-        <section className='py-20 px-5 relative xl:flex xl:justify-between xl:items-center xl:pb-32'>
+        <section className='container py-20 px-5 relative xl:flex xl:justify-between xl:items-center xl:pb-32'>
             <div className='text-center relative z-20 max-w-382 mx-auto xl:max-w-full xl:text-left'>
                 <img 
                     src={LogoImage} 
@@ -20,11 +20,11 @@ const HeroSection = () => {
                 <Button text='Ajudar Agora' />
             </div>
 
-            <div className='hidden xl:block xl:relative xl:left-44 xl:after:content-[""] xl:after:block xl:after:absolute xl:after:right-0 xl:after:top-20 xl:z-10 xl:after:bg-yellow-primary xl:after:w-850 xl:after:h-400 xl:after:rounded-500 xl:after:rotate-[-19deg]'>
+            <div className='hidden xl:block xl:relative xl:left-44 xl:bottom-10 xl:after:content-[""] xl:after:block xl:after:absolute xl:after:right-[-70px] xl:after:top-20 xl:z-10 xl:after:bg-yellow-primary xl:after:w-850 xl:after:h-400 xl:after:rounded-500 xl:after:rotate-[-19deg]'>
                 <img 
                     src={DogHeroImage} 
                     alt="Imagem de um cachorro"
-                    className='relative z-20 w-1300 right-2 top-5'
+                    className='relative z-20 w-1300 right-2 top-11'
                 />
             </div>
         </section>

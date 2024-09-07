@@ -9,13 +9,15 @@ export default {
             colors: {
                 'pink-primary': '#ffC6DA',
                 'yellow-primary': '#FFF1A6',
-                'blue-primary': '#BAD8EB',
+                'blue-primary': '#124C5F0D',
                 'blue-secondary': '#124C5F'
             },
             spacing: {
                 '382': '382px',
-                '850': '850px',
                 '400': '400px',
+                '450': '450px',
+                '650': '650px',
+                '850': '850px',
                 '1300': '1300px'
             },
             borderRadius: {
