@@ -1,5 +1,7 @@
 import DogStoriesImage from '../../assets/images/dog-2.png';
 
+import Button from '../Button';
+
 const DogStoriesSection = () => {
     return (
         <section className='bg-blue-primary'>
@@ -12,6 +14,7 @@ const DogStoriesSection = () => {
                     <p className='mt-6 text-sm xl:text-lg'>
                         Descubra histórias encantadoras, segredos reveladores e a profunda conexão entre humanos e seus leais companheiros. Prepare-se para uma jornada única, onde a linguagem dos cães ganha vida para aqueles que estão sintonizados com o inexplorado mundo canino.
                     </p>
+                    <Button text='Saiba Mais' /> 
                 </div>
             </div>
         </section>
