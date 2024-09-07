@@ -13,8 +13,8 @@ const HeroSection = () => {
                     alt="Logo da HelpDog" 
                     className='mx-auto xl:mx-0'
                 />
-                <h1 className='mt-16 text-3xl md:text-4xl xl:text-5xl'>Ajude quem realmente precisa da sua ajuda.</h1>
-                <p className='mt-4 md:mt-6 md:text-xl xl:text-xl xl:max-w-382'>
+                <h1 className='mt-12 text-3xl md:text-4xl xl:text-5xl'>Ajude quem realmente precisa da sua ajuda.</h1>
+                <p className='mt-4 px-5 md:px-0 md:mt-6 md:text-xl xl:text-xl xl:max-w-382'>
                     Com apenas 1 real você pode me ajudar a alimentar cães de ruas.
                 </p>
                 <Button text='Ajudar Agora' />
