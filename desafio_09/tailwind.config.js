@@ -8,6 +8,10 @@ export default {
         extend: {
             colors: {
                 'green-primary': '#9BF00B'
+            },
+            spacing: {
+                '450': '450px',
+                '600': '600px',
             }
         },
     },

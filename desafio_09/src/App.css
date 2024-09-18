@@ -4,6 +4,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+    .navItemLink {
+        @apply bg-[#67676763] py-2 px-3 rounded-[50px] text-white text-xs uppercase tracking-[.5px] md:mx-0 md:text-sm md:py-3 md:px-5;
+    }
+}
+
 
 :root {
     --brand-color: #9bf00b;
@@ -18,4 +24,10 @@
 
 body {
     font-family: "Inter", sans-serif;
+    background-color: #0D100C;
+}
+
+#root {
+    max-width: 1216px;
+    margin: 0 auto;
 }
