@@ -5,6 +5,7 @@ import './App.css';
 import Header from './components/Header';
 import HeroSection from './components/HeroSection';
 import ControlSection from './components/ControlSection';
+import GallerySection from './components/GallerySection';
 
 
 const App = () => {
@@ -14,6 +15,7 @@ const App = () => {
             <main>
                 <HeroSection />
                 <ControlSection />
+                <GallerySection />
             </main>
         </>
     )
