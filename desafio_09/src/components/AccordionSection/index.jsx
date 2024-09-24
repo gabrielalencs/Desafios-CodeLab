@@ -19,7 +19,7 @@ const AccordionSection = () => {
             id: 352,
             question: 'Como sei se minha TV é compatível com 4K?',
             answer: 'Verifique as especificações da sua TV no manual ou nas configurações. TVs compatíveis com 4K geralmente indicam isso no modelo ou nas opções de resolução.'
-        },
+        }
     ];
 
     const [openQuestionId, setOpenQuestionId] = useState(null);
