@@ -6,20 +6,19 @@
 
 @layer components {
     .navItemLink {
-        @apply bg-[#67676763] py-2 px-3 rounded-[50px] text-white text-xs uppercase tracking-[.5px] md:mx-0 md:text-sm md:py-3 md:px-5;
+        @apply bg-[#67676763] py-2 px-3 rounded-[50px] cursor-pointer text-white text-xs uppercase tracking-[.5px] duration-300 hover:text-green-primary md:mx-0 md:text-sm md:py-3 md:px-5;
     }
 }
 
-
 :root {
-    --brand-color: #9bf00b;
+    --brand-color: #9BF00B;
 
     --dark: #0c0c0c;
 
     --gray-10: #777777;
-    --gray-20: #c0c0c0;
+    --gray-20: #C0C0C0;
 
-    --white: #ffffff;
+    --white: #FFFFFF;
 }
 
 body {

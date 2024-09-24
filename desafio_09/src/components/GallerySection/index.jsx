@@ -10,7 +10,7 @@ const GallerySection = () => {
         GameImageTwo,
         GameImageThree,
         GameImageFour
-    ]
+    ];
 
     return (
         <section className='mt-32 md:mt-44 grid gap-10 px-8 md:grid-cols-2 lg:grid-cols-4 lg:gap-0'>

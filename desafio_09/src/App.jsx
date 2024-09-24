@@ -7,6 +7,7 @@ import HeroSection from './components/HeroSection';
 import ControlSection from './components/ControlSection';
 import GallerySection from './components/GallerySection';
 import AccordionSection from './components/AccordionSection';
+import Footer from './components/Footer';
 
 
 const App = () => {
@@ -19,6 +20,7 @@ const App = () => {
                 <GallerySection />
                 <AccordionSection />
             </main>
+            <Footer />
         </>
     )
 }
