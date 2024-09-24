@@ -4,7 +4,6 @@ import GameImageThree from '../../assets/images/3.png';
 import GameImageFour from '../../assets/images/4.png';
 
 const GallerySection = () => {
-
     const galleryImages = [
         GameImageOne,
         GameImageTwo,
@@ -12,6 +11,7 @@ const GallerySection = () => {
         GameImageFour
     ];
 
+    
     return (
         <section className='mt-32 md:mt-44 grid gap-10 px-8 md:grid-cols-2 lg:grid-cols-4 lg:gap-0'>
             {
