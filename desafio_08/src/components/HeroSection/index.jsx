@@ -24,7 +24,7 @@ const HeroSection = () => {
                 <img 
                     src={DogHeroImage} 
                     alt="Imagem de um cachorro"
-                    className='relative z-20 w-1300 right-2 top-11'
+                    className='relative z-20 w-1300 right-2 top-[26px]'
                 />
             </div>
         </section>
