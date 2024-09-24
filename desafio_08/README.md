@@ -1,6 +1,6 @@
 <div align="center">
     <h1>HelpDog 🐕💙</h1> 
-    <img src="https://github.com/user-attachments/assets/648a3d18-8501-4224-8458-1e88db98429c">
+    <img src="https://github.com/user-attachments/assets/d23b340d-7910-407b-a0c8-8f647262fbf9">
 </div>
 
 <h2>Sobre o desafio 👨🏻‍💻</h2>
