@@ -17,3 +17,4 @@
 ✅ | 06 | Mefolio | <a href="https://desafios-codelab-desafio-06.netlify.app/" target="_blank">Acessar</a> | <a href="https://github.com/gabrielalencs/Desafios-CodeLab/tree/main/desafio_06" target="_blank">Acessar</a> | REACTJS, STYLED COMPONENTS
 ✅ | 07 | Memoween | <a href="https://desafios-codelab-desafio-07.netlify.app/" target="_blank">Acessar</a> | <a href="https://github.com/gabrielalencs/Desafios-CodeLab/tree/main/desafio_07" target="_blank">Acessar</a> | REACTJS, SASS/SCSS
 ✅ | 08 | HelpDog | <a href="https://desafios-codelab-desafio-08.netlify.app/" target="_blank">Acessar</a> | <a href="https://github.com/gabrielalencs/Desafios-CodeLab/tree/main/desafio_08" target="_blank">Acessar</a> | REACTJS, TAILWIND CSS
+✅ | 09 | Xbox | <a href="https://desafios-codelab-desafio-09.netlify.app/" target="_blank">Acessar</a> | <a href="https://github.com/gabrielalencs/Desafios-CodeLab/tree/main/desafio_09" target="_blank">Acessar</a> | REACTJS, TAILWIND CSS
