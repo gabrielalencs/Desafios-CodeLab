@@ -1,8 +1,6 @@
 import { createGlobalStyle } from "styled-components";
 
 const GlobalStyles = createGlobalStyle`
-    @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
-
     :root {
         --brand-color: #996830;
 
@@ -19,6 +17,10 @@ const GlobalStyles = createGlobalStyle`
         box-sizing: border-box;
     }
 
+    html {
+        font-size: 62.5%;
+    }
+
     body {
         font-family: "Outfit", sans-serif;
     }
@@ -30,6 +32,20 @@ const GlobalStyles = createGlobalStyle`
     h5,
     h6 {
         font-family: "Playfair Display", serif;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    button {
+        border: none;
+        cursor: pointer;
     }
 
     .container {
