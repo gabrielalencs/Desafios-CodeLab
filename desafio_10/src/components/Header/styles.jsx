@@ -10,7 +10,7 @@ export const HeaderContainer = styled.header`
     @media (width >= 768px) {
         flex-direction: row;
         justify-content: space-between;
-        padding: 3rem 4rem;
+        padding: 3rem;
     }
 `;
 
