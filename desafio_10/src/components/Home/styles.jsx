@@ -68,7 +68,6 @@ export const ImagesContainer = styled.div`
     @media (width >= 992px) {
         display: flex;
         justify-content: center;
-        /* flex-wrap: wrap; */
         gap: 3rem;
         margin-top: 10rem;
         width: 100%;
@@ -78,7 +77,6 @@ export const ImagesContainer = styled.div`
         max-width: 25rem;
         width: 100%;
         height: 50rem;
-        flex-shrink: 1;
 
         @media (width >= 1540px) {
             width: 28rem;
