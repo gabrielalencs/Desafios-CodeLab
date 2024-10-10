@@ -5,7 +5,8 @@ import GlobalStyles from "./styles/GlobalStyles";
 // Components
 
 import Header from "./components/Header";
-import Home from "./components/Home";
+import HomeSection from "./components/HomeSection";
+import AboutSection from "./components/AboutSection";
 
 
 const App = () => {
@@ -14,7 +15,8 @@ const App = () => {
             <GlobalStyles />
             <Header />
             <main className="container">
-                <Home />
+                <HomeSection />
+                <AboutSection />
             </main>
         </>
     );

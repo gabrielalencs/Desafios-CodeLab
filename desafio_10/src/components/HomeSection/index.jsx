@@ -13,7 +13,7 @@ import {
     ImagesContainer
 } from './styles'
 
-const Home = () => {
+const HomeSection = () => {
 
     const homeImages = [
         { id: 1, img: imageHouseOne },
@@ -47,4 +47,4 @@ const Home = () => {
     )
 }
 
-export default Home
+export default HomeSection;

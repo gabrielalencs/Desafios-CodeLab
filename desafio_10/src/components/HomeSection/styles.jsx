@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const HomeContainer = styled.section`
     margin-top: 3rem;
     padding: 0 3rem;
-    margin-bottom: 100rem;
 
     @media (width >= 768px) {
         margin-top: 5rem;
@@ -73,28 +72,28 @@ export const ImagesContainer = styled.div`
         width: 100%;
     }
 
+    @media (width >= 1150px) {
+        justify-content: space-between;
+    }
+
     img {
         max-width: 25rem;
         width: 100%;
         height: 50rem;
 
-        @media (width >= 1540px) {
-            width: 28rem;
-        }
-    }
-
-    img:nth-child(2) {
-        position: relative;
-        bottom: 1.8rem;
-    }
-
-    img:last-child {
-        display: none;
-
-        @media (width >= 1150px) {
+        &:nth-child(2) {
             position: relative;
             bottom: 1.8rem;
-            display: block;
+        }
+
+        &:last-child {
+            display: none;
+
+            @media (width >= 1150px) {
+                position: relative;
+                bottom: 1.8rem;
+                display: block;
+            }
         }
     }
 `;
