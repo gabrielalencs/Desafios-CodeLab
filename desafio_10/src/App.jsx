@@ -7,6 +7,7 @@ import GlobalStyles from "./styles/GlobalStyles";
 import Header from "./components/Header";
 import HomeSection from "./components/HomeSection";
 import AboutSection from "./components/AboutSection";
+import GallerySection from "./components/GallerySection";
 
 
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
             <main className="container">
                 <HomeSection />
                 <AboutSection />
+                <GallerySection />
             </main>
         </>
     );

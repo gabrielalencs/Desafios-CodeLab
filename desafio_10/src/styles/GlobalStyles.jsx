@@ -43,6 +43,10 @@ const GlobalStyles = createGlobalStyle`
         color: inherit;
     }
 
+    img {
+        width: 100%;
+    }
+
     button {
         border: none;
         cursor: pointer;
