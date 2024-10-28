@@ -8,6 +8,7 @@ import Header from "./components/Header";
 import HomeSection from "./components/HomeSection";
 import AboutSection from "./components/AboutSection";
 import GallerySection from "./components/GallerySection";
+import Footer from "./components/Footer";
 
 
 const App = () => {
@@ -20,6 +21,7 @@ const App = () => {
                 <AboutSection />
                 <GallerySection />
             </main>
+            <Footer />
         </>
     );
 };

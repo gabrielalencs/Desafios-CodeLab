@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const GalleryContainer = styled.section`
     margin-top: 15rem;
     padding: 0 3rem;
-    margin-bottom: 100rem;
 
     @media (width >= 1150px) {
         margin-top: 20rem;
