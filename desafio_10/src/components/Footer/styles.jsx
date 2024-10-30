@@ -5,18 +5,20 @@ export const FooterContainer = styled.footer`
     padding: 8rem 3rem;
     border-top: 2px solid #D9D9D6;
 
-    @media (width >= 768px) {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
-
     @media (width >= 1216px) {
         margin: 15rem auto 0 !important;
     }
 
     @media (width >= 1150px) {
         margin-top: 20rem !important;
+    }
+`;
+
+export const FooterContent = styled.div`
+    @media (width >= 768px) {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
     }
 `;
 
@@ -73,4 +75,29 @@ export const SocialMediaList = styled.ul`
     display: flex;
     align-items: center;
     gap: 2rem;
+`;
+
+export const Developer = styled.p`
+    display: inline-block;
+    width: 100%;
+    margin-top: 5rem;
+    font-size: 1.8rem;
+    text-align: center;
+
+    br {
+        display: block;
+
+        @media (width >= 768px) {
+            display: none;
+        }
+    }
+
+    a {
+        color: var(--brand-color);
+        transition: all .3s;
+
+        &:hover {
+            color: #754c1d;
+        }
+    }
 `;
