@@ -5,7 +5,7 @@
 <p>Seja bem-vindo(a). Este é um repositório para as minhas soluções dos desafios Front-End da comunidade $\color{DarkViolet}{\textsf{CodeLab}}$ criada pelo desenvolvedor $\color{DarkViolet}{\textsf{IuriCode}}$. </p> 
 
 ## Desafios Concluídos 🏆
-<p>Você pode acessar a vitrine onde estão todos os desafios já concluídos <a href="https://gabrielalencs.github.io/Site-Desafios-CodeLab/" target="_blank">Clicando Aqui</a>.</p>
+<p>Você pode acessar a vitrine onde estão todos os desafios já concluídos <a href="https://gabrielalencs.github.io/Vitrine-Desafios-CodeLab/" target="_blank">Clicando Aqui</a>.</p>
 
 | Status | Desafio | Nome | Deploy | Repositório | Tecnologias Utilizadas
 :------: | :-----: | :--: | :--: | :--: | :-----:
